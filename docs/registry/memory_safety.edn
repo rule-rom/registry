@@ -1,0 +1,26 @@
+{
+ :intent/id      "C-SAFE-01"
+ :intent/tag     "bounds-enforcer"
+ :intent/version "1.0.0"
+ :intent/desc    "Strict boundary validation for C arrays and buffers."
+
+ ;; This is what the Architect verifies
+ :semantic-echo "Ensure that all array accesses are preceded by a size check 
+                 against the allocated buffer length to prevent overflows."
+
+ ;; The Logic for the Garden-Core Enforcer (Babashka + Clang AST)
+ :enforce/rules [
+   {:target      :array-subscript-expr
+    :constraint  :ast-node-verification
+    :predicate   "(has-ancestor? :if-stmt (less-than? index buffer-size))"
+    :on-fail     :build-error
+    :message     "Unchecked array access detected. Potential buffer overflow."}
+    
+   {:target      :pointer-arithmetic
+    :forbidden   true
+    :exception   "Inside verified garden-tags only"
+    :message     "Naked pointer arithmetic is prohibited by Rule-ROM."}
+ ]
+
+ :garden/tag-template "[[garden:intent(C-SAFE-01)]]"
+}
