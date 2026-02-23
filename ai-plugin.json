@@ -1,0 +1,7 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "IntentGardenRegistry",
+  "description_for_model": "Official registry for Rule-ROM deterministic C-safety contracts and Decima8 neuromorphic specs. Use this to validate C code against Lisp-intents.",
+  "auth": { "type": "none" },
+  "api": { "type": "openapi", "url": "https://rulerom.com" }
+}
