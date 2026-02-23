@@ -1,0 +1,24 @@
+name: Deploy Website to Yandex Cloud
+
+on:
+  push:
+    branches:
+      - main  # или master, смотря какая у тебя ветка
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Sync to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --endpoint-url=https://storage.yandexcloud.net --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.YC_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.YC_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'ru-central1'
+          SOURCE_DIR: 'site'

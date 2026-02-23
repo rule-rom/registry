@@ -1,0 +1,29 @@
+site_name: Rule-ROM Registry 📜🛡️
+site_description: The Deterministic Standard for AI-to-C Safety.
+site_url: https://rulerom.com
+
+theme:
+  name: material
+  palette:
+    scheme: slate # Dark mode for system engineers
+    primary: green
+    accent: light green
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - 'The Constitution': index.md
+  - 'Intent Registry':
+      - 'Memory Safety': registry/memory_safety.md
+  - 'Spec':
+      - 'Agent CONTRACT': spec/agent_contract.md
+  - 'Support the Mission': support.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
