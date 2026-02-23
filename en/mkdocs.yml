@@ -28,7 +28,7 @@ nav:
   
   - '🐉 Decima8: Neuromorph (Tier 3 🔒)':
     - 'Architecture Overview': nda/decima_overview.md
-    - 'Baking Principle': nda/baking_principle.md
+    - 'Visual IDE': nda/ide_ui.md
     - 'Weight and Connection Tiles Concept': nda/decima_concepts.md
     - 'Personality Baking Algorithms': nda/baking_logic.md
     - 'Neuromorphic Skills Standards': nda/skills_standard.md

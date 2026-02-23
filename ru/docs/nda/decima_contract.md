@@ -132,7 +132,7 @@
 ## Ссылки
 
 - [Обзор Decima8](decima_overview.md)
-- [Принцип пропекания](baking_principle.md)
+- [Визуальная IDE](ide_ui.md)
 - [Форматы TLV и UDP](formats.md)
 - [Boosty: Intent-Garden](https://boosty.to/intentgarden)
 - [Иерархия Сварма](../spec/hierarchy.md)

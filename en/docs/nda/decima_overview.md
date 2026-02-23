@@ -10,8 +10,8 @@
 | Section | Public | Tier 3 | Tier 4 | Tier 5 | Tier 6 |
 |---------|--------|--------|--------|--------|--------|
 | [Architecture Overview](decima_overview.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Visual IDE](ide_ui.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Tiles & Weights Concept](decima_concepts.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Baking Principle](baking_principle.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Machine Specification](decima_contract.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
 | [TLV and UDP Formats](formats.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
 | [Decima-API Interface](decima_integration.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
@@ -108,6 +108,7 @@
 - [Boosty: Intent-Garden](https://boosty.to/intentgarden)
 - [Intent-Garden Support](https://intent-garden.org/support.html)
 - [Swarm Hierarchy](../spec/hierarchy.md)
+- [Visual IDE](ide_ui.md)
 
 ---
 

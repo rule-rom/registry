@@ -132,7 +132,7 @@ In development — neuromorphic personalities marketplace. Tier 3+ members get t
 ## Links
 
 - [Decima8 Overview](decima_overview.md)
-- [Baking Principle](baking_principle.md)
+- [Visual IDE](ide_ui.md)
 - [TLV and UDP Formats](formats.md)
 - [Boosty: Intent-Garden](https://boosty.to/intentgarden)
 - [Swarm Hierarchy](../spec/hierarchy.md)

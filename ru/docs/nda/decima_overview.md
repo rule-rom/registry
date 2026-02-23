@@ -10,8 +10,8 @@
 | Раздел | Public | Tier 3 | Tier 4 | Tier 5 | Tier 6 |
 |--------|--------|--------|--------|--------|--------|
 | [Обзор архитектуры](decima_overview.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Визуальная IDE](ide_ui.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Концепция тайлов и весов](decima_concepts.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Принцип пропекания](baking_principle.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Спецификация машины](decima_contract.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
 | [Форматы TLV и UDP](formats.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
 | [Интерфейс Decima-API](decima_integration.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
@@ -108,6 +108,7 @@
 - [Boosty: Intent-Garden](https://boosty.to/intentgarden)
 - [Intent-Garden Support](https://intent-garden.org/support.html)
 - [Иерархия Сварма](../spec/hierarchy.md)
+- [Визуальная IDE](ide_ui.md)
 
 ---
 
