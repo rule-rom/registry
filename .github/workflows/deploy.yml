@@ -3,7 +3,7 @@ name: Deploy Website to Yandex Cloud
 on:
   push:
     branches:
-      - main  # или master, смотря какая у тебя ветка
+      - main
 
 jobs:
   deploy:
@@ -12,7 +12,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Sync to S3
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install mkdocs and dependencies
+        run: |
+          pip install mkdocs mkdocs-material
+
+      - name: Build English version
+        run: |
+          cd en
+          mkdocs build --clean
+
+      - name: Build Russian version
+        run: |
+          cd ru
+          mkdocs build --clean
+
+      - name: Sync English version to S3
         uses: jakejarvis/s3-sync-action@master
         with:
           args: --endpoint-url=https://storage.yandexcloud.net --delete
@@ -21,4 +40,17 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.YC_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_SECRET_ACCESS_KEY }}
           AWS_REGION: 'ru-central1'
-          SOURCE_DIR: 'site'
+          SOURCE_DIR: 'en/site'
+          DEST_DIR: 'en'
+
+      - name: Sync Russian version to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --endpoint-url=https://storage.yandexcloud.net --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.YC_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.YC_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.YC_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'ru-central1'
+          SOURCE_DIR: 'ru/site'
+          DEST_DIR: 'ru'

@@ -1,27 +1,25 @@
 # Rule-ROM Registry 📜🛡️
 
 **The Sovereign Standard for Deterministic AI-to-C Safety.**
+*Protocol Status: [1/16] Council Seats Occupied | [276] Commits (Last 60 Days)*
 
-*Status: [1/16] Elders | [0/256] Swarm Nodes Active.*
+Rule-ROM is not a suggestion; it is the **Legislative Substrate** of the Intent-Garden ecosystem. We bridge the gap between stochastic AI generation and mission-critical C execution through formal **EDN-Intents** and **Clang AST** enforcement.
 
-This repository hosts the official source for [rulerom.com](https://rulerom.com) and the global library of EDN-based Intent specifications. 
+### 🏛️ The Core Pillars
+- **[The Registry](/docs/registry):** Public library of EDN-contracts (Memory safety, Swarm logic, Bounds).
+- **[The Contract](/docs/spec/agent_contract.md):** The mandatory protocol for AI-managed Labor (Managed Laborer).
+- **[The Hierarchy](/docs/spec/hierarchy.md):** The 5-Tier Sovereign Power Structure and the High Council.
 
-### 🏗️ Structure
-- [/docs/registry](/docs/registry): Formal EDN contracts for memory safety, logic, and swarm orchestration.
-- [/docs/spec](/docs/spec): Documentation on the Rule-ROM protocol and Garden-Tag injection.
-- [/docs/spec/agent_contract.md](/docs/spec/agent_contract.md): **The Mandatory Protocol for AI-managed Labor.**
+### 🛡️ Enforcement Protocol: "Zero-Trust"
+We do not "lint." We enforce.
+- **Verification:** Babashka (Clojure) validation of the Clang Abstract Syntax Tree.
+- **Law:** If `AST != Intent`, the code is **pruned** (rejected) by the Enforcer. 
+- **Efficiency:** 20µs - 40µs on i5-3550.
 
-### 🛡️ Enforcement Principle
-We operate on **Zero-Trust Logic**. Every commit is audited by the [Garden-Core](https://github.com/intent-garden/core) enforcer. 
-- **Validation:** Lisp (Babashka) verification of the **Clang AST**.
-- **Protocol:** Formal verification of C-logic via **Clang AST** and **Lisp-Invariants**.
-- **Rule:** If `AST != Intent`, the code is pruned. **Pay or Prune.**
-- **Enforcement:** Zero-tolerance AST validation. `No Tag = No Code`.
+### 🛠️ Join the Grid
+We are looking for **Architects**, not hype.
+1. Fork the Registry.
+2. Add your deterministic EDN-intent.
+3. Submit a PR for audit by the **Root Authority**.
 
-### 🛠️ How to contribute
-We are looking for **Architects**, not just coders. 
-1. Fork this registry.
-2. Add your EDN-intent (specifying the safety invariants).
-3. Submit a Pull Request for audit by the **Root Authority**.
-
-[🌿 Garden-Core](https://github.com/intent-garden/core) | [📖 Rule-ROM](https://rulerom.com) | [🖼️ LibWUI](https://github.com/intent-garden/wui) | [💰 Support](https://intent-garden.org/support.html)
+[🌿 Garden-Core](https://intent-garden.org) | [🧠 Decima8](https://decima8.org) | [💰 Support](https://boosty.to/intentgarden)
