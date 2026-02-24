@@ -5,6 +5,47 @@
 
 ---
 
+## 🧠 Decima8 Personalities Catalog (Product Line)
+
+Each **"Personality"** is a deterministic neuromorphic "imprint" ready for embedding.
+
+### 1. 👁️ Personality "Typographer" (Vision Layer)
+
+| Parameter | Description |
+|-----------|-------------|
+| **Product** | Ultra-fast OCR and surface inspection |
+| **Application** | Conveyor sorting, defect detection, archive digitization |
+| **Metric** | 20-40µs per character. Runs on i5 where others need GPU farm |
+| **Status** | ✅ Ready (Video Proof) |
+
+### 2. 🎙️ Personality "Linguist" (Audio Layer)
+
+| Parameter | Description |
+|-----------|-------------|
+| **Product** | Direct speech synthesis and recognition without latency |
+| **Application** | Voice control for machines, alert systems, autonomous translators |
+| **Essence** | Escape from "cloud" latency. AI reacts at human reflex speed |
+| **Status** | 🚧 In Baking (R&D) |
+
+### 3. 🦾 Personality "Kinetic" (Motor Layer)
+
+| Parameter | Description |
+|-----------|-------------|
+| **Product** | Sensory motor control and actuator management |
+| **Application** | Robotics, drones, exoskeletons |
+| **Essence** | Deterministic motion control. Robot doesn't "think", it "feels" environment resistance through 40µs cycle |
+| **Status** | 📋 Nomos Specification |
+
+### 4. 🧠 Project "Hyperion" (Swarm Layer)
+
+| Parameter | Description |
+|-----------|-------------|
+| **Product** | Multi-layer brain of 100+ Swarms |
+| **Application** | Complex systems control (Smart City, Nuclear Power Plant, Global Trading) |
+| **Essence** | Each Swarm layer handles its domain (vision, audio, logic), unified into hierarchy via Rule-ROM |
+
+---
+
 ## 📊 Access Tiers
 
 | Section | Public | Tier 3 | Tier 4 | Tier 5 | Tier 6 |
