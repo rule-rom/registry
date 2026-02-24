@@ -18,16 +18,25 @@ Each **"Personality"** is a deterministic neuromorphic "imprint" ready for embed
 | **Metric** | 20-40µs per character. Runs on i5 where others need GPU farm |
 | **Status** | ✅ Ready (Video Proof) |
 
-### 2. 🎙️ Personality "Linguist" (Audio Layer)
+### 2. 🎙️ Personality "Acoustic" (Audio Layer — Frontend)
 
 | Parameter | Description |
 |-----------|-------------|
-| **Product** | Direct speech synthesis and recognition without latency |
-| **Application** | Voice control for machines, alert systems, autonomous translators |
+| **Product** | Ultra-fast audio stream processing, phoneme extraction |
+| **Application** | Voice control, keyword triggers, noise cancellation |
+| **Essence** | Primary sound processing. Signal separation from noise at neuromorphic substrate level |
+| **Status** | 📋 Specification |
+
+### 3. 📚 Personality "Linguist" (Audio Layer — Backend)
+
+| Parameter | Description |
+|-----------|-------------|
+| **Product** | Speech recognition, response synthesis, semantic analysis |
+| **Application** | Autonomous translators, dialog systems, transcription |
 | **Essence** | Escape from "cloud" latency. AI reacts at human reflex speed |
 | **Status** | 🚧 In Baking (R&D) |
 
-### 3. 🦾 Personality "Kinetic" (Motor Layer)
+### 4. 🦾 Personality "Kinetic" (Motor Layer)
 
 | Parameter | Description |
 |-----------|-------------|
@@ -36,7 +45,16 @@ Each **"Personality"** is a deterministic neuromorphic "imprint" ready for embed
 | **Essence** | Deterministic motion control. Robot doesn't "think", it "feels" environment resistance through 40µs cycle |
 | **Status** | 📋 Nomos Specification |
 
-### 4. 🧠 Project "Hyperion" (Swarm Layer)
+### 5. 🐋 Personality "Whaler" (HFT Layer)
+
+| Parameter | Description |
+|-----------|-------------|
+| **Product** | HFT "Dragonfly" — ultra-fast market anomaly detection |
+| **Application** | High-frequency trading, arbitrage, liquidity |
+| **Essence** | Deterministic reaction window. "Dragonfly" sees anomaly and executes order faster than others see the price |
+| **Status** | 🚧 In Progress (R&D) |
+
+### 6. 🧠 Project "Hyperion" (Swarm Layer)
 
 | Parameter | Description |
 |-----------|-------------|
