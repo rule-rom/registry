@@ -9,9 +9,10 @@
 
 | Section | Public | Tier 3 | Tier 4 | Tier 5 | Tier 6 |
 |---------|--------|--------|--------|--------|--------|
-| [Architecture Overview](decima_overview.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Visual IDE](ide_ui.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Tiles & Weights Concept](decima_concepts.md) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Intent-Core (Lisp+C)** | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Architecture Overview](decima_overview.md) | ❌ | ✅ | ✅ | ✅ | ✅ |
+| [Visual IDE](ide_ui.md) | ❌ | ✅ | ✅ | ✅ | ✅ |
+| [Tiles & Weights Concept](decima_concepts.md) | ❌ | ✅ | ✅ | ✅ | ✅ |
 | [Machine Specification](decima_contract.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
 | [TLV and UDP Formats](formats.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
 | [Decima-API Interface](decima_integration.md) | ❌ | 🔐 | 🔐 | 🔐 | 🔐 |
@@ -24,7 +25,7 @@
 | [Swarm-Bus Internals](swarm_internals.md) | ❌ | ❌ | ❌ | ❌ | 🔐 |
 
 **Legend:**
-- ✅ Public — open documentation
+- ✅ Public — open documentation (Intent-Core)
 - 🔐 NDA — requires appropriate tier access
 
 ---
