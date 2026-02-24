@@ -51,7 +51,7 @@
 - Direct line to the dev-logs and private R&D channels
 - License to deploy "Baked Personalities" in commercial clusters
 
-### ⛓️ Tier 5 — Swarm Node (100,000 ₽ / ~$1,130 / ~¥8,170)
+### ⛓️ Tier 5 — Swarm Node (100,000 ₽ / ~$1,130 / ~¥8,170) [0/256]
 
 **The Technology Partners**
 
@@ -59,7 +59,7 @@
 - License to integrate Decima8 logic into custom silicon/hardware
 - First-batch access to Decima8 ASIC production
 
-### 💎 Tier 6 — High Council Elder (1M+ ₽ / ~$11,300+ / ~¥81,700+)
+### 💎 Tier 6 — High Council Elder (1M+ ₽ / ~$11,300+ / ~¥81,700+) [0/16]
 
 **The 16 "Kings" of Their Respective Industrial Verticals**
 
