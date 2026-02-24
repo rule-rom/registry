@@ -67,7 +67,7 @@
 ## 🔗 Как присоединиться
 
 - [Boosty: Intent-Garden](https://boosty.to/intentgarden) — выбор уровня поддержки
-- [Intent-Garden Support](support/tiers.md) — Crypto
+- [Intent-Garden Support](../support/tiers.md) — Crypto
 
 ---
 
