@@ -66,7 +66,7 @@ The right to modify global Intents and access to low-level bus protocols is dist
 |-----------|------|
 | 🌿 **Garden-Core** | [Code Validation](tools/enforcer.md) |
 | 🐉 **Decima8** | [Dev-Logs](https://decima8.org) |
-| 💎 **Support** | [Boosty](https://boosty.to/intentgarden) / [Crypto](https://intent-garden.org/support.html) |
+| 💎 **Support** | [Tiers and rules](support/tiers/) |
 
 ---
 
