@@ -16,21 +16,21 @@
 - Access to public documentation
 - Basic security specifications
 
-### Tier 1 — Gardener (400 ₽ / ~$4.50 / ~¥33)
+### 🌱 Tier 1 — Gardener (400 ₽ / ~$4.50 / ~¥33)
 
 **The Swarm Roots.**
 - Access to Private Dev-Logs on Boosty
 - Supporting the open-source **libwui** and **Garden-Core** engines
 - Status: Passive observer and supporter of the Synthesis
 
-### Tier 2 — Enforcer (1,000 ₽ / ~$11 / ~¥82)
+### 🛡️ Tier 2 — Enforcer (1,000 ₽ / ~$11 / ~¥82)
 
 **The Logic Guards.**
 - Priority PR review for new Intents
 - Your name will be on the list of project supporters forever
 - Status: Verified Guardian of the Code
 
-### Tier 3 — Industrialist (3,000 ₽ / ~$34 / ~¥245)
+### 🧠 Tier 3 — Industrialist (3,000 ₽ / ~$34 / ~¥245)
 
 **The "Reactor" Operators.**
 - Access to Closed R&D Archives & Application-level Decima8 concepts
@@ -40,14 +40,14 @@
 - Decima8 neuromorphic specifications
 - Direct team access
 
-### Tier 4 — Swarm Founder (15,000 ₽ / ~$170 / ~¥1,225)
+### 🏗️ Tier 4 — Swarm Founder (15,000 ₽ / ~$170 / ~¥1,225)
 
 **The Infrastructure Builders.**
 - Full Decima8 IDE & Sovereign Emulator (Shared Memory Integration)
 - Direct line to the dev-logs and private R&D channels
 - License to deploy "Baked Personalities" in commercial clusters
 
-### Tier 5 — Swarm Node (100,000 ₽ / ~$1,130 / ~¥8,170)
+### ⛓️ Tier 5 — Swarm Node (100,000 ₽ / ~$1,130 / ~¥8,170)
 
 **The Technology Partners.**
 - Full Hardware Specification (ASIC/FPGA Documentation)
@@ -64,26 +64,10 @@
 
 ---
 
-## 📊 Currency Reference
-
-| Tier | Name | RUB (₽) | USD ($) | CNY (¥) |
-|------|------|---------|---------|---------|
-| 0 | Observer | Бесплатно | Free | 免费 |
-| 1 | Gardener | 400 | ~4.50 | ~33 |
-| 2 | Enforcer | 1,000 | ~11 | ~82 |
-| 3 | Industrialist | 3,000 | ~34 | ~245 |
-| 4 | Swarm Founder | 15,000 | ~170 | ~1,225 |
-| 5 | Swarm Node | 100,000 | ~1,130 | ~8,170 |
-| 6 | High Council | 1M+ | ~11,300+ | ~81,700+ |
-
-*Rates are approximate and subject to change.*
-
----
-
 ## 🔗 How to Join
 
 - [Boosty: Intent-Garden](https://boosty.to/intentgarden) — Choose your support tier
-- [Intent-Garden Support](https://intent-garden.org/support.html) — Additional information
+- [Intent-Garden Support](support/tiers.md) — Crypto
 
 ---
 
