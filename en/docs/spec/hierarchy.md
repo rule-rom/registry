@@ -4,8 +4,8 @@
 
 ## Structure
 
-- **16 active nodes** in the swarm core
-- **256 potential slots** for expansion
+- **16 elders** in the swarm core
+- **256 industrialists** global council
 
 ---
 
