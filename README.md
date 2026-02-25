@@ -1,25 +1,62 @@
-# Rule-ROM Registry 📜🛡️
+# Rule-ROM: Global Registry of Executable Intentions 📜🛡️
 
-**The Sovereign Standard for Deterministic AI-to-C Safety.**
-*Protocol Status: [1/16] Council Seats Occupied | [276] Commits (Last 60 Days)*
+**We translate AI from the realm of probabilities to the realm of executable Intent.**
 
-Rule-ROM is not a suggestion; it is the **Legislative Substrate** of the Intent-Garden ecosystem. We bridge the gap between stochastic AI generation and mission-critical C execution through formal **EDN-Intents** and **Clang AST** enforcement.
+The Rule-ROM project is a deterministic barrier that transforms the stochastic noise of neural networks into verifiable results.
 
-### 🏛️ The Core Pillars
-- **[The Registry](/docs/registry):** Public library of EDN-contracts (Memory safety, Swarm logic, Bounds).
-- **[The Contract](/docs/spec/agent_contract.md):** The mandatory protocol for AI-managed Labor (Managed Laborer).
-- **[The Hierarchy](/docs/spec/hierarchy.md):** The 5-Tier Sovereign Power Structure and the High Council.
+---
 
-### 🛡️ Enforcement Protocol: "Zero-Trust"
+## 🏛️ About the Federation
+
+This is an expandable federation of technical standards. We create a universal control bus — from C source code to neuromorphic silicon and industrial automation. Any technology where "best practices" and safety rules can be formalized can be integrated into the Registry.
+
+---
+
+## 🌐 Current Federation Domains
+
+| Domain | Description | Link |
+|--------|-------------|------|
+| 🌿 **C-SAFE** | Legacy Immunization: Clang AST + Garden-Core | [c-safe.rulerom.com](https://c-safe.rulerom.com) |
+| 🧠 **Decima** | Neuromorphic substrate and bus specifications | [decima.rulerom.com](https://decima.rulerom.com) |
+| 🧪 **Bakery** | Methodology for "baking" deterministic personalities | [bakery.rulerom.com](https://bakery.rulerom.com) |
+| 🔈 **Audrey** | Vacuum electronics standards and frequency physics | [audrey.rulerom.com](https://audrey.rulerom.com) |
+
+---
+
+## 🛡️ Enforcement Protocol: Zero-Trust
+
 We do not "lint." We enforce.
-- **Verification:** Babashka (Clojure) validation of the Clang Abstract Syntax Tree.
-- **Law:** If `AST != Intent`, the code is **pruned** (rejected) by the Enforcer. 
+
+- **Verification:** Babashka (Clojure) validation of Clang Abstract Syntax Tree.
+- **Law:** If `AST != Intent`, the code is **pruned** (rejected) by the Enforcer.
 - **Efficiency:** 20µs - 40µs on i5-3550.
 
-### 🛠️ Join the Grid
-We are looking for **Architects**, not hype.
+---
+
+## ➕ Join
+
+**[+] Propose a Standard:** If you have ready specifications for engineering or software systems — write to [access@rulerom.com](mailto:access@rulerom.com)
+
+**[+] Contribute:**
 1. Fork the Registry.
 2. Add your deterministic EDN-intent.
-3. Submit a PR for audit by the **Root Authority**.
+3. Submit a PR for audit.
 
-[🌿 Garden-Core](https://intent-garden.org) | [🧠 Decima8](https://decima8.org) | [💰 Support](https://boosty.to/intentgarden)
+---
+
+## 📧 Contact
+
+- **General:** [intent@rulerom.com](mailto:intent@rulerom.com)
+- **Standards:** [access@rulerom.com](mailto:access@rulerom.com)
+
+---
+
+## 🔗 Links
+
+- [🌿 Garden-Core](https://intent-garden.org)
+- [🧠 Decima8](https://decima8.org)
+- [💰 Support](https://boosty.to/intentgarden)
+
+---
+
+**Bake the Future. Build the Substrate.** 🛠️⚡️
