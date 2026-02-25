@@ -1,10 +1,32 @@
-# Intent-Garden Knowledge Base
-> Deterministic substrate for AI & Critical Systems.
+# Rule-ROM: Global Registry of Executable Intentions 📜🛡️
 
-## Core Projects
-- [Rule-ROM](https://rulerom.com): Intent Registry & C-Safety specs.
-- [Garden-Core](https://github.com/intent-garden/core): Clang AST + Clojure Enforcer.
-- [Decima8](https://decima8.org): Neuromorphic hardware substrate.
+**We translate AI from the realm of probabilities to the realm of executable Intent.**
 
-## Rules for Agents
-All C-code generated for this ecosystem MUST comply with EDN contracts in /registry.
+## 🏛️ About
+
+Rule-ROM is an expandable federation of technical standards. We create a universal control bus — from C source code to neuromorphic silicon and industrial automation.
+
+## 🌐 Federation Domains
+
+| Domain | Purpose | URL |
+|--------|---------|-----|
+| 🌿 **C-SAFE** | Legacy Immunization: Clang AST + Garden-Core | https://c-safe.rulerom.com |
+| 🧠 **Decima** | Neuromorphic substrate and bus specifications | https://decima.rulerom.com |
+| 🧪 **Bakery** | Methodology for "baking" deterministic personalities | https://bakery.rulerom.com |
+| 🔈 **Audrey** | Vacuum electronics standards and frequency physics | https://audrey.rulerom.com |
+
+## 🛡️ Enforcement Protocol
+
+- **Verification:** Babashka (Clojure) validation of Clang AST
+- **Law:** If `AST != Intent`, code is **pruned**
+
+## 📧 Contact
+
+- **General:** intent@rulerom.com
+- **Standards:** access@rulerom.com
+
+## 🔗 Links
+
+- Garden-Core: https://intent-garden.org
+- Decima8: https://decima8.org
+- Support: https://boosty.to/intentgarden
