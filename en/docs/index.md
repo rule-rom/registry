@@ -1,28 +1,31 @@
-# Rule-ROM: Federation of Deterministic Standards 📜🛡️
+# Rule-ROM: Global Registry of Executable Intentions 📜🛡️
 
-**The central hub of the Intent-Garden ecosystem.**
+**We translate AI from the realm of probabilities to the realm of executable Intent.**
 
-We divide management of code, hardware, and meaning into four independent domains. Choose your entry point based on your engineering task:
+The Rule-ROM project is a deterministic barrier that transforms the stochastic noise of neural networks into verifiable results.
 
 ---
 
-## 🔗 Entry Points
+## 🏛️ About the Federation
 
-### 🌿 [C-SAFE](https://c-safe.rulerom.com) — Legacy Immunization
+This is an expandable federation of technical standards. We create a universal control bus — from C source code to neuromorphic silicon and industrial automation. Any technology where "best practices" and safety rules can be formalized can be integrated into the Registry.
 
-Specifications and intents for safe C. Validation via Clang AST and Garden-Core. Here we transform stochastic AI-agent code into deterministic instructions.
+---
 
-### 🧠 [Decima](https://decima.rulerom.com) — Neuromorphic Substrate
+## 🌐 Current Federation Domains
 
-Low-level protocols of Decima8 core. PHASE_READ/WRITE bus description, tile logic, and "latch corridor" physics. For those who build hardware.
+| Domain | Description |
+|--------|-------------|
+| 🌿 **[C-SAFE](https://c-safe.rulerom.com)** | Legacy Immunization: Clang AST + Garden-Core |
+| 🧠 **[Decima](https://decima.rulerom.com)** | Neuromorphic substrate and bus specifications |
+| 🧪 **[Bakery](https://bakery.rulerom.com)** | Methodology for "baking" deterministic personalities |
+| 🔈 **[Audrey](https://audrey.rulerom.com)** | Vacuum electronics standards and frequency physics |
 
-### 🧪 [Bakery](https://bakery.rulerom.com) — Personality Bakery
+---
 
-Methodology for training and "baking" neuromorphic skills. Pattern library for vision (OCR), audio (ASR), and market strategies (HFT).
+## ➕ Join
 
-### 🔈 [Audrey](https://audrey.rulerom.com) — Analog Soul
-
-Standards of physical frequencies. Tube technology on G-807, output transformer calculations, and the connection between vacuum sound and digital determinism.
+**[+] Propose a Standard:** If you have ready specifications for engineering or software systems — write to [access@rulerom.com](mailto:access@rulerom.com)
 
 ---
 
