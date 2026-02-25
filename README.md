@@ -23,16 +23,6 @@ This is an expandable federation of technical standards. We create a universal c
 
 ---
 
-## 🛡️ Enforcement Protocol: Zero-Trust
-
-We do not "lint." We enforce.
-
-- **Verification:** Babashka (Clojure) validation of Clang Abstract Syntax Tree.
-- **Law:** If `AST != Intent`, the code is **pruned** (rejected) by the Enforcer.
-- **Efficiency:** 20µs - 40µs on i5-3550.
-
----
-
 ## ➕ Join
 
 **[+] Propose a Standard:** If you have ready specifications for engineering or software systems — write to [access@rulerom.com](mailto:access@rulerom.com)
