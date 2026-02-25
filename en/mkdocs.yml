@@ -1,13 +1,13 @@
-site_name: Rule-ROM Registry 📜🛡️
+site_name: Rule-ROM Federation 🏛️
+site_url: https://rulerom.com
 theme:
   name: material
   palette:
-    scheme: slate # Темная тема для "инженерного" вайба
+    scheme: slate
   features:
     - navigation.tabs
     - navigation.sections
-    - content.code.copy
-  custom_dir: overrides
+  custom_dir: ../overrides
 
 extra:
   analytics:
@@ -15,39 +15,4 @@ extra:
     property: 106900883
 
 nav:
-  - '📖 Constitution': 
-    - 'Manifesto of Determinism': index.md
-    - 'Agent Contract': spec/agent_contract.md
-    - 'Swarm Hierarchy (16/256)': spec/hierarchy.md
-  
-  - '📜 Intents Registry (Public)':
-    - 'Overview': registry/index.md
-    - 'Memory Safety (C-SAFE)': registry/memory_safety.md
-    - 'Bounds Control (BOUNDS)': registry/bounds_check.md
-    - 'Type Validation (TYPE-INTENT)': registry/type_validation.md
-  
-  - '🐉 Decima8: Neuromorph (Tier 3 🔒)':
-    - 'Architecture Overview': nda/decima_overview.md
-    - 'Visual IDE': nda/ide_ui.md
-    - 'Weight and Connection Tiles Concept': nda/decima_concepts.md
-    - 'Personality Baking Algorithms': nda/baking_logic.md
-    - 'Neuromorphic Skills Standards': nda/skills_standard.md
-    - 'Machine Specification (v0.2)': nda/decima_contract.md
-    - 'TLV and UDP Formats': nda/formats.md
-    - 'Decima-API Interface': nda/decima_integration.md
-    - 'IDE Binaries': nda/ide_binaries.md
-    - 'Patterns Database': nda/patterns_db.md
-    - 'Standalone Emulator (Tier 4+)': nda/standalone_emulator.md
-    - 'Swarm-Bus API (Tier 4+)': nda/swarm_bus_api.md
-    - 'ASIC/FPGA Specification (Tier 5+)': nda/asic_spec.md
-    - 'RTL and Topology (Tier 6)': nda/rtl_topology.md
-    - 'Swarm-Bus Internals (Tier 6)': nda/swarm_internals.md
-
-  - '🛠️ Tooling':
-    - 'Garden-Core Enforcer': tools/enforcer.md
-    - 'Clang AST Integration': tools/ast_integration.md
-    - 'Babashka & Clojure': tools/lisp_setup.md
-
-  - '💎 Support':
-    - 'Support the Project': support/tiers.md
-    - 'ASIC Fund': support/asic_fund.md
+  - '🏛️ Home': index.md

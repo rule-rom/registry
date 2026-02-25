@@ -1,72 +1,34 @@
-# Rule-ROM: Sovereign Standard of Determinism 📜🛡️
+# Rule-ROM: Federation of Deterministic Standards 📜🛡️
 
-## Manifesto of Determinism
+**The central hub of the Intent-Garden ecosystem.**
 
-> *"In a world of non-deterministic code, we build islands of predictability"*
-
----
-
-## 🛠️ Three Pillars of the System
-
-### 1. Code Validation (Garden-Core)
-
-We don't rely on "prompts" or AI intuition. We use formal logic to control the C stack.
-
-| Aspect | Description |
-|--------|-------------|
-| **Mechanics** | Clang AST matching with Lisp-intents (EDN) |
-| **Principle** | Any code without explicit Intent is considered noise and pruned |
-| **Result** | Code QA, deterministic onboarding of new engineers and AI agents |
-
-### 2. Neuromorphic Core (Decima8)
-
-Rule-ROM logic is transferred from software to physical substrate.
-
-| Aspect | Description |
-|--------|-------------|
-| **Essence** | Neuromorphic architecture where "personalities" (like our OCR-Typographer) are baked deterministically |
-| **Goal** | Direct intent execution in silicon (ASIC) without overhead of classical OS |
-| **Status** | Working emulator, preparation for first silicon production, personalities lab launched |
-
-### 3. Sovereign Environment (Nomos)
-
-Determinism is impossible in a "cloud" that doesn't belong to you.
-
-| Aspect | Description |
-|--------|-------------|
-| **Maintenance** | Lifetime standard support and versioning |
-| **Autonomy** | Full self-hosting of infrastructure (S3, Git, Swarm nodes) on own hardware and all major providers worldwide |
-| **Sovereignty** | Your intellectual property is physically protected in the "Headquarters" |
+We divide management of code, hardware, and meaning into four independent domains. Choose your entry point based on your engineering task:
 
 ---
 
-## 🏛️ Rule-ROM Constitution
+## 🔗 Entry Points
 
-### 1. Intent is Primary Over Code
+### 🌿 [C-SAFE](https://c-safe.rulerom.com) — Legacy Immunization
 
-Code without explicit reflection in the **Intents Registry** is considered noise. The executable system has the right to ignore or prune any instructions whose origin is not deterministic.
+Specifications and intents for safe C. Validation via Clang AST and Garden-Core. Here we transform stochastic AI-agent code into deterministic instructions.
 
-### 2. Vacuum Isolation (The Sandbox)
+### 🧠 [Decima](https://decima.rulerom.com) — Neuromorphic Substrate
 
-Any interaction of an AI agent with a critical system occurs through an **"intentional gateway"**. The agent doesn't "write a program", it materializes a specification strictly bounded by Garden-Core.
+Low-level protocols of Decima8 core. PHASE_READ/WRITE bus description, tile logic, and "latch corridor" physics. For those who build hardware.
 
-### 3. Substrate Sovereignty
+### 🧪 [Bakery](https://bakery.rulerom.com) — Personality Bakery
 
-Determinism is inseparable from the physical medium. Rule-ROM rules must execute identically in the emulator, in C code, and in Decima8 neuromorphic silicon.
+Methodology for training and "baking" neuromorphic skills. Pattern library for vision (OCR), audio (ASR), and market strategies (HFT).
 
-### 4. Hierarchy of Responsibility
+### 🔈 [Audrey](https://audrey.rulerom.com) — Analog Soul
 
-The right to modify global Intents and access to low-level bus protocols is distributed according to contribution to Swarm development. **16 Elders** maintain architectural balance, **256 Nodes** ensure network coverage.
+Standards of physical frequencies. Tube technology on G-807, output transformer calculations, and the connection between vacuum sound and digital determinism.
 
 ---
 
-## 🚀 Join the Synthesis
+## 📧 Contact
 
-| Component | Link |
-|-----------|------|
-| 🌿 **Garden-Core** | [Code Validation](tools/enforcer.md) |
-| 🐉 **Decima8** | [Dev-Logs](https://decima8.org) |
-| 💎 **Hierarchy** | [Swarm hierarchy](spec/hierarchy.md) |
+**Email:** [intent@rulerom.com](mailto:intent@rulerom.com)
 
 ---
 

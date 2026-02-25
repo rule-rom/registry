@@ -1,13 +1,13 @@
-site_name: Rule-ROM Registry 📜🛡️
+site_name: Rule-ROM Federation 🏛️
+site_url: https://rulerom.com
 theme:
   name: material
   palette:
-    scheme: slate # Темная тема для "инженерного" вайба
+    scheme: slate
   features:
     - navigation.tabs
     - navigation.sections
-    - content.code.copy
-  custom_dir: overrides
+  custom_dir: ../overrides
 
 extra:
   analytics:
@@ -15,39 +15,4 @@ extra:
     property: 106900883
 
 nav:
-  - '📖 Конституция': 
-    - 'Манифест Детерминизма': index.md
-    - 'Агентский Контракт': spec/agent_contract.md
-    - 'Иерархия Сварма (16/256)': spec/hierarchy.md
-  
-  - '📜 Реестр Интентов (Public)':
-    - 'Обзор': registry/index.md
-    - 'Безопасность памяти (C-SAFE)': registry/memory_safety.md
-    - 'Контроль границ (BOUNDS)': registry/bounds_check.md
-    - 'Валидация типов (TYPE-INTENT)': registry/type_validation.md
-  
-  - '🐉 Decima8: Нейроморф (Tier 3 🔒)':
-    - 'Обзор архитектуры': nda/decima_overview.md
-    - 'Визуальная IDE': nda/ide_ui.md
-    - 'Концепция тайлов весов и связей': nda/decima_concepts.md
-    - 'Алгоритмы пропекания личностей': nda/baking_logic.md
-    - 'Стандарты нейроморфных навыков': nda/skills_standard.md
-    - 'Спецификация машины (v0.2)': nda/decima_contract.md
-    - 'Форматы TLV и UDP': nda/formats.md
-    - 'Интерфейс Decima-API': nda/decima_integration.md
-    - 'Бинарники IDE': nda/ide_binaries.md
-    - 'База паттернов': nda/patterns_db.md
-    - 'Автономный эмулятор (Tier 4+)': nda/standalone_emulator.md
-    - 'Swarm-Bus API (Tier 4+)': nda/swarm_bus_api.md
-    - 'Спецификация ASIC/FPGA (Tier 5+)': nda/asic_spec.md
-    - 'RTL и топология (Tier 6)': nda/rtl_topology.md
-    - 'Swarm-Bus Internals (Tier 6)': nda/swarm_internals.md
-
-  - '🛠️ Инструментарий':
-    - 'Garden-Core Enforcer': tools/enforcer.md
-    - 'Интеграция с Clang AST': tools/ast_integration.md
-    - 'Babashka & Clojure': tools/lisp_setup.md
-
-  - '💎 Поддержка':
-    - 'Поддержка проекта': support/tiers.md
-    - 'Фонд ASIC': support/asic_fund.md
+  - '🏛️ Главная': index.md
