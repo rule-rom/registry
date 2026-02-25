@@ -1,4 +1,4 @@
-# Rule-ROM: Global Registry of Executable Intentions 📜🛡️
+# Rule-ROM: Global Registry of Executable Intentions 📜
 
 **We translate AI from the realm of probabilities to the realm of executable Intent.**
 
