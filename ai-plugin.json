@@ -64,20 +64,9 @@
       ]
     }
   ],
-  "enforcement": {
-    "protocol": "Zero-Trust",
-    "verification": "Babashka (Clojure) Clang AST validation",
-    "law": "If AST != Intent, code is pruned",
-    "efficiency": "20-40µs on i5-3550"
-  },
-  "principles": [
-    "Intent is primary over code",
-    "Vacuum isolation for AI agents",
-    "Substrate sovereignty",
-    "Hierarchy of responsibility (16 Elders, 256 Nodes)"
-  ],
   "support_tiers": [
-    {"tier": "Observer", "price": "Free", "access": "Public docs"},
+    {"tier": "Seed", "price": "$0.50/mo", "access": "Public docs"},
+    {"tier": "Observer", "price": "Free", "access": "Dev-logs"},
     {"tier": "Gardener", "price": "$4.50/mo", "access": "Dev-logs"},
     {"tier": "Enforcer", "price": "$11/mo", "access": "Priority PR"},
     {"tier": "Industrialist", "price": "$34/mo", "access": "NDA specs"},
