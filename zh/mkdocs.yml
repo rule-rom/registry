@@ -1,0 +1,18 @@
+site_name: Rule-ROM Federation 🏛️
+site_url: https://rulerom.com
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.sections
+  custom_dir: ../overrides
+
+extra:
+  analytics:
+    provider: yandex
+    property: 106900883
+
+nav:
+  - '🏛️ 首页': index.md
