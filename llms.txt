@@ -4,7 +4,17 @@
 
 ## 🏛️ About
 
-Rule-ROM is an expandable federation of technical standards. We create a universal control bus — from C source code to neuromorphic silicon and industrial automation.
+**Rule-ROM** is an expandable federation of technical standards. We create a universal control bus — from C source code to neuromorphic silicon and industrial automation. Any technology where "best practices" and safety rules can be formalized can be integrated into the Registry.
+
+**Mission:** Deterministic barrier that transforms stochastic noise of neural networks into verifiable results.
+
+## 📚 Documentation
+
+| Language | URL |
+|----------|-----|
+| 🇬🇧 English | https://rulerom.com/en/ |
+| 🇷🇺 Russian | https://rulerom.com/ru/ |
+| 🇨🇳 Chinese | https://rulerom.com/zh/ |
 
 ## 🌐 Federation Domains
 
@@ -15,18 +25,144 @@ Rule-ROM is an expandable federation of technical standards. We create a univers
 | 🧪 **Bakery** | Methodology for "baking" deterministic personalities | https://bakery.rulerom.com |
 | 🔈 **Audrey** | Vacuum electronics standards and frequency physics | https://audrey.rulerom.com |
 
-## 🛡️ Enforcement Protocol
+## 🛡️ Enforcement Protocol: Zero-Trust
 
-- **Verification:** Babashka (Clojure) validation of Clang AST
-- **Law:** If `AST != Intent`, code is **pruned**
+| Aspect | Description |
+|--------|-------------|
+| **Verification** | Babashka (Clojure) validation of Clang Abstract Syntax Tree |
+| **Law** | If `AST != Intent`, code is **pruned** (rejected) |
+| **Efficiency** | 20µs - 40µs on i5-3550 |
+
+## 📋 Core Principles
+
+| Principle | Description |
+|-----------|-------------|
+| **Intent is Primary** | Code without Intent in Registry is noise |
+| **Vacuum Isolation** | AI agents through intentional gateway only |
+| **Substrate Sovereignty** | Rules execute identically in emulator, C, and silicon |
+| **Hierarchy of Responsibility** | 16 Elders hold balance, 256 Nodes ensure coverage |
+
+## 📓 Development Log
+
+| Year | Link |
+|------|------|
+| **2026** | https://rulerom.com/en/log/2026/ |
+| **Monthly** | 12 files: 01.md - 12.md |
+
+### How to Add Entry
+
+```markdown
+## 2026-02-27
+
+- Created log structure by year/month
+- Added trilingual support (en/ru/zh)
+```
+
+## 🏗 Project Structure
+
+```
+registry/
+├── en/                     # English documentation
+│   ├── mkdocs.yml
+│   └── docs/
+│       ├── index.md
+│       ├── log/
+│       │   ├── index.md
+│       │   └── 2026/
+│       │       ├── index.md
+│       │       └── 01.md - 12.md
+│       ├── registry/       # Intent registry
+│       ├── spec/           # Specifications
+│       ├── tools/          # Tools
+│       ├── nda/            # NDA content
+│       └── support/        # Support
+├── ru/                     # Russian documentation
+│   ├── mkdocs.yml
+│   └── docs/
+├── zh/                     # Chinese documentation
+│   ├── mkdocs.yml
+│   └── docs/
+├── c-safe/                 # C-SAFE subdomain
+├── decima/                 # Decima subdomain
+├── bakery/                 # Bakery subdomain
+├── audrey/                 # Audrey subdomain
+├── index.html              # Auto-redirect page
+├── README.md
+├── llms.txt
+└── ai-plugin.json
+```
+
+## 🔄 Intent Lifecycle
+
+```
+Human Intent → EDN Contract → Bake Blob → EV_BAKE → Swarm Execute
+```
+
+| Stage | Description |
+|-------|-------------|
+| **Human Intent** | Architect formulates task |
+| **EDN Contract** | Machine-readable contract |
+| **Bake Blob** | Binary TLV format |
+| **EV_BAKE** | Fix configuration |
+| **Swarm Execute** | Deterministic execution |
+
+## 🛠️ Quick Start
+
+### Run Documentation
+
+```bash
+# English version
+cd en
+mkdocs serve
+
+# Russian version
+cd ru
+mkdocs serve
+
+# Chinese version
+cd zh
+mkdocs serve
+```
+
+### Build All Versions
+
+```bash
+cd en && mkdocs build --clean
+cd ../ru && mkdocs build --clean
+cd ../zh && mkdocs build --clean
+```
+
+## 🔗 Ecosystem
+
+| Project | Description | URL |
+|---------|-------------|-----|
+| **🌿 Garden-Core** | Deterministic C/C++ verification | https://intent-garden.org |
+| **🧠 Decima8** | Neuromorphic core specifications | https://decima8.org |
+| **💰 Support** | Boosty subscription | https://boosty.to/intentgarden |
 
 ## 📧 Contact
 
 - **General:** intent@rulerom.com
 - **Standards:** access@rulerom.com
+- **Documentation:** https://rulerom.com
 
-## 🔗 Links
+## 💰 Support Tiers
 
-- Garden-Core: https://intent-garden.org
-- Decima8: https://decima8.org
-- Support: https://boosty.to/intentgarden
+| Tier | Price | Access |
+|------|-------|--------|
+| **Observer** | Free | Public docs |
+| **Gardener** | $4.50/mo | Dev-logs |
+| **Enforcer** | $11/mo | Priority PR |
+| **Industrialist** | $34/mo | NDA specs |
+| **Swarm Founder** | $170/mo | Emulator + API |
+| **Swarm Node** | $1,130/mo | ASIC/FPGA specs |
+| **High Council** | $11,300+/mo | RTL + voting |
+
+### Crypto Addresses
+
+- **USDT (TRC20 / Tron):** `TSZGs8RvzxaKGYDaiTm3FaJN8EdANETkPs`
+- **Bitcoin (BTC):** `bc1quul85tw7m0meaxkd2aqk2mguplsn809stjudsm`
+
+---
+
+**Bake the Future. Build the Substrate.** 🛠️⚡️
