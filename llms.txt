@@ -25,6 +25,13 @@
 | 🧪 **Bakery** | Methodology for "baking" deterministic personalities | https://bakery.rulerom.com |
 | 🔈 **Audrey** | Vacuum electronics standards and frequency physics | https://audrey.rulerom.com |
 
+## 🔐 Infrastructure
+
+| Service | Purpose | URL |
+|---------|---------|-----|
+| 🔑 **PKI** | Public Key Infrastructure | https://pki.rulerom.com |
+| 📓 **Log** | Development Journal | https://rulerom.com/en/log/ |
+
 ## 🏗 Project Structure
 
 ```

@@ -17,6 +17,18 @@
     "zh": "https://rulerom.com/zh/",
     "log": "https://rulerom.com/en/log/"
   },
+  "infrastructure": {
+    "pki": {
+      "name": "PKI",
+      "description": "Public Key Infrastructure for certificate management",
+      "url": "https://pki.rulerom.com"
+    },
+    "log": {
+      "name": "Log",
+      "description": "Daily development journal",
+      "url": "https://rulerom.com/en/log/"
+    }
+  },
   "domains": [
     {
       "name": "C-SAFE",

@@ -21,6 +21,13 @@ This is an expandable federation of technical standards. We create a universal c
 | 🧪 **[Bakery](https://bakery.rulerom.com)** | Methodology for "baking" deterministic personalities |
 | 🔈 **[Audrey](https://audrey.rulerom.com)** | Vacuum electronics standards and frequency physics |
 
+## 🔐 Infrastructure
+
+| Service | Description |
+|---------|-------------|
+| 🔑 **[PKI](https://pki.rulerom.com)** | Public Key Infrastructure |
+| 📓 **[Log](/en/log/)** | Daily development journal |
+
 ---
 
 ## ➕ Join
