@@ -18,6 +18,12 @@ All hardware designs, PCB layouts, and silicon schematics are licensed under the
 - Any modifications or improvements made to the Hardware must be shared back with the Federation under the same license.
 - Full license text: https://ohwr.org
 
+### Commercial Use of Decima-8 Hardware
+
+Commercial use of Decima-8 hardware solutions is regulated by patents **№ ROS-PATENT-6647678974, ROS-PATENT-6666481670, ROS-PATENT-6668409039**.
+
+To obtain **'Certified Decima-Node'** status and the right to use the **Rule-ROM** trademark in commercial products, contact Intent-Garden at **vsb@decima8.org**.
+
 ## 3. Software & Binaries (The Tooling)
 
 The executable binary (d8_ide.exe) and associated diagnostic tools are provided by **Intent-Garden** as-is for free industrial and personal use.

@@ -18,6 +18,12 @@
 - 对硬件进行的任何修改或改进必须根据相同的许可与 Federation 共享。
 - 完整许可文本：https://ohwr.org
 
+### Decima-8 硬件的商业使用
+
+Decima-8 硬件解决方案的商业使用受专利 **№ ROS-PATENT-6647678974, ROS-PATENT-6666481670, ROS-PATENT-6668409039** 监管。
+
+要获得 **'Certified Decima-Node'** 状态和在商业产品中使用 **Rule-ROM** 商标的权利，请联系 Intent-Garden：**vsb@decima8.org**。
+
 ## 3. 软件与二进制文件（工具）
 
 可执行二进制文件 (d8_ide.exe) 和相关诊断工具由 **Intent-Garden** 按原样提供，用于免费的工业和个人使用。
