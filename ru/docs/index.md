@@ -93,6 +93,13 @@
 <div class="rom-footer">
     <p class="rom-footer-tagline">Communicate. Command. Control.</p>
     <p><a href="https://intent-garden.org">🌿 Intent-Garden.Org</a></p>
+    
+    <div class="rom-lang-switcher" style="margin: 1.5rem 0;">
+        <a href="/en/" class="rom-lang-btn">🇬🇧 EN</a>
+        <a href="/ru/" class="rom-lang-btn">🇷🇺 RU</a>
+        <a href="/zh/" class="rom-lang-btn">🇨🇳 ZH</a>
+    </div>
+    
     <p style="margin-top: 1rem; font-size: 0.75rem; opacity: 0.6;">
         © 2026 Intent-Garden. Specifications: CC BY-ND 4.0. Hardware: CERN-OHL-S v2.<br>
         <a href="https://pki.rulerom.com">Verified by Rule-ROM Root CA</a>
