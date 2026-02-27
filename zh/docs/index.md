@@ -53,19 +53,17 @@
 ## 基础设施
 
 <div class="rom-infra">
-    <h2 class="rom-infra-title">基础设施</h2>
-    
     <div class="rom-btn-grid">
         <a href="https://pki.rulerom.com" class="rom-btn rom-btn-primary">
             <span class="rom-btn-icon">🔑</span>
             <span>PKI 门户</span>
             <span class="rom-btn-label">pki.rulerom.com</span>
         </a>
-        
+
         <a href="log/" class="rom-btn">
             <span class="rom-btn-icon">📓</span>
-            <span>开发日志</span>
-            <span class="rom-btn-label">每日记录</span>
+            <span>联邦日志</span>
+            <span class="rom-btn-label">变更记录</span>
         </a>
     </div>
 </div>
@@ -94,9 +92,5 @@
 
 <div class="rom-footer">
     <p class="rom-footer-tagline">Bake the Future. Build the Substrate.</p>
-    <p>
-        <a href="https://intent-garden.org">Garden-Core</a> ·
-        <a href="https://decima8.org">Decima8</a> ·
-        <a href="https://boosty.to/intentgarden">Support</a>
-    </p>
+    <p><a href="https://intent-garden.org">🌿 Intent-Garden.Org</a></p>
 </div>

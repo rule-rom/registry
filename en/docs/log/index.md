@@ -1,6 +1,6 @@
 # 📓 Development Log
 
-**Daily development journal of the Rule-ROM Federation**
+**Herald of the Rule-ROM Federation**
 
 ---
 
@@ -15,7 +15,7 @@
 
 ## 📝 How It Works
 
-- **Daily entries:** 2-3 lines per day
+- **Recording important changes**
 - **Monthly files:** Each month is a separate `.md` file
 - **Yearly folders:** Each year has its own folder with 12 months
 

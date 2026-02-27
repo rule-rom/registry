@@ -53,19 +53,17 @@
 ## Infrastructure
 
 <div class="rom-infra">
-    <h2 class="rom-infra-title">Infrastructure</h2>
-    
     <div class="rom-btn-grid">
         <a href="https://pki.rulerom.com" class="rom-btn rom-btn-primary">
             <span class="rom-btn-icon">🔑</span>
             <span>PKI Portal</span>
             <span class="rom-btn-label">pki.rulerom.com</span>
         </a>
-        
+
         <a href="log/" class="rom-btn">
             <span class="rom-btn-icon">📓</span>
-            <span>Development Log</span>
-            <span class="rom-btn-label">Daily journal</span>
+            <span>Federation Log</span>
+            <span class="rom-btn-label">Change tracking</span>
         </a>
     </div>
 </div>
@@ -94,9 +92,5 @@
 
 <div class="rom-footer">
     <p class="rom-footer-tagline">Bake the Future. Build the Substrate.</p>
-    <p>
-        <a href="https://intent-garden.org">Garden-Core</a> ·
-        <a href="https://decima8.org">Decima8</a> ·
-        <a href="https://boosty.to/intentgarden">Support</a>
-    </p>
+    <p><a href="https://intent-garden.org">🌿 Intent-Garden.Org</a></p>
 </div>
