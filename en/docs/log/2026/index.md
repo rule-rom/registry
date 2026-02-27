@@ -23,17 +23,4 @@
 
 ---
 
-## 📝 How to Add Entry
-
-Add new entries at the **top** of the current month file:
-
-```markdown
-## 2026-02-27
-
-- Added log structure by year/month
-- Created 2026/01-12 folder structure
-```
-
----
-
 [← Back to Log Index](../index.md) | [← Home](../../index.md)
