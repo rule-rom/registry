@@ -95,7 +95,7 @@
     <p><a href="https://intent-garden.org">🌿 Intent-Garden.Org</a></p>
     
     <div class="rom-lang-switcher" style="margin: 1.5rem 0;">
-        <a href="/en/" class="rom-lang-btn">🇬🇧 EN</a>
+        <a href="/en/" class="rom-lang-btn">🇺🇸 EN</a>
         <a href="/ru/" class="rom-lang-btn">🇷🇺 RU</a>
         <a href="/zh/" class="rom-lang-btn">🇨🇳 ZH</a>
     </div>
