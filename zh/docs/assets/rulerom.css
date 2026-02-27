@@ -1,0 +1,474 @@
+/* Rule-ROM PKI — Sovereign Root Authority Theme */
+/* The Doomsday Terminal / Digital Notary Aesthetic */
+
+:root {
+    --pki-bg: #0a0a0f;
+    --pki-bg-secondary: #12121a;
+    --pki-bg-card: #1a1a25;
+    --pki-text: #e0e0e0;
+    --pki-text-muted: #6b7280;
+    --pki-accent: #00ff88;
+    --pki-accent-dim: rgba(0, 255, 136, 0.1);
+    --pki-primary: #00d9ff;
+    --pki-primary-dim: rgba(0, 217, 255, 0.1);
+    --pki-warning: #ffb800;
+    --pki-danger: #ff4444;
+    --pki-border: #2a2a3a;
+    --pki-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+}
+
+/* Base overrides */
+body {
+    background: linear-gradient(135deg, var(--pki-bg) 0%, #0f0f1a 50%, var(--pki-bg) 100%);
+}
+
+/* Hero Unit — The Authority Header */
+.pki-hero {
+    background: linear-gradient(180deg, var(--pki-bg-secondary) 0%, var(--pki-bg) 100%);
+    border-bottom: 2px solid var(--pki-primary);
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.pki-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--pki-primary), transparent);
+    animation: scan 3s ease-in-out infinite;
+}
+
+@keyframes scan {
+    0%, 100% { top: 0; opacity: 0.5; }
+    50% { top: 100%; opacity: 1; }
+}
+
+.pki-hero-title {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, var(--pki-primary), var(--pki-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 40px rgba(0, 217, 255, 0.3);
+}
+
+.pki-hero-subtitle {
+    font-size: 1.1rem;
+    color: var(--pki-text-muted);
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+}
+
+/* Status Indicator — Operational Blink */
+.pki-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    background: var(--pki-accent-dim);
+    border: 1px solid var(--pki-accent);
+    border-radius: 50px;
+    font-family: var(--pki-mono);
+    font-size: 0.85rem;
+    color: var(--pki-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.pki-status-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--pki-accent);
+    border-radius: 50%;
+    animation: blink 1.5s ease-in-out infinite;
+    box-shadow: 0 0 10px var(--pki-accent);
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+/* Sovereign Download Button */
+.pki-download-btn {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background: linear-gradient(135deg, #006677 0%, #005566 100%);
+    color: #e0e0e0;
+    border: 2px solid var(--pki-primary);
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.2);
+    margin: 2rem 0;
+}
+
+.pki-download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 50px rgba(0, 217, 255, 0.6);
+    background: linear-gradient(135deg, var(--pki-primary) 0%, #00b8d9 100%);
+    color: #0a0a0f;
+}
+
+.pki-download-btn:active {
+    transform: translateY(-1px);
+}
+
+.pki-download-btn-label {
+    font-size: 0.65rem;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+    font-family: var(--pki-mono);
+    letter-spacing: 0;
+    word-break: break-all;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* Certificate Passport Card */
+.pki-passport {
+    background: var(--pki-bg-card);
+    border: 1px solid var(--pki-border);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.pki-passport::before {
+    content: '🛡️';
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    opacity: 0.1;
+}
+
+.pki-passport-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--pki-border);
+}
+
+.pki-passport-icon {
+    font-size: 2.5rem;
+}
+
+.pki-passport-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--pki-text);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.pki-passport-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.pki-passport-field {
+    background: var(--pki-bg-secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--pki-primary);
+}
+
+.pki-passport-label {
+    font-size: 0.75rem;
+    color: var(--pki-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+
+.pki-passport-value {
+    font-family: var(--pki-mono);
+    font-size: 0.95rem;
+    color: var(--pki-text);
+    word-break: break-all;
+}
+
+.pki-passport-value.highlight {
+    color: var(--pki-accent);
+    font-weight: 600;
+}
+
+/* Fingerprint Display */
+.pki-fingerprint {
+    background: var(--pki-bg-secondary);
+    border: 1px solid var(--pki-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-family: var(--pki-mono);
+}
+
+.pki-fingerprint-title {
+    font-size: 0.85rem;
+    color: var(--pki-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pki-fingerprint-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.pki-fp-item {
+    background: var(--pki-bg);
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--pki-border);
+}
+
+.pki-fp-algo {
+    font-size: 0.75rem;
+    color: var(--pki-text-muted);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.pki-fp-value {
+    font-family: var(--pki-mono);
+    font-size: 0.85rem;
+    color: var(--pki-primary);
+    word-break: break-all;
+    letter-spacing: 0.05em;
+}
+
+/* Installation Steps — Three Paths */
+.pki-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.pki-step {
+    background: var(--pki-bg-card);
+    border: 1px solid var(--pki-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pki-step:hover {
+    border-color: var(--pki-primary);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 217, 255, 0.15);
+}
+
+.pki-step-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pki-step-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--pki-text);
+    margin-bottom: 0.5rem;
+}
+
+.pki-step-desc {
+    font-size: 0.9rem;
+    color: var(--pki-text-muted);
+    margin-bottom: 1rem;
+}
+
+.pki-step-code {
+    background: var(--pki-bg);
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-family: var(--pki-mono);
+    font-size: 0.8rem;
+    color: var(--pki-accent);
+    text-align: left;
+    overflow-x: auto;
+}
+
+/* Signed Artifacts Table */
+.pki-artifacts {
+    background: var(--pki-bg-card);
+    border: 1px solid var(--pki-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.pki-artifacts-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--pki-text);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pki-artifacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--pki-mono);
+    font-size: 0.9rem;
+}
+
+.pki-artifacts-table th {
+    text-align: left;
+    padding: 0.75rem;
+    color: var(--pki-text-muted);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid var(--pki-border);
+}
+
+.pki-artifacts-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--pki-border);
+}
+
+.pki-artifacts-table tr:last-child td {
+    border-bottom: none;
+}
+
+.pki-status-verified {
+    color: var(--pki-accent);
+    font-weight: 600;
+}
+
+/* Code blocks override */
+code, pre {
+    font-family: var(--pki-mono) !important;
+}
+
+/* Material MkDocs specific overrides */
+.md-main__inner {
+    margin-top: 2rem;
+}
+
+.md-content {
+    background: transparent;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+    color: var(--pki-text);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.md-typeset h1 {
+    border-bottom: 2px solid var(--pki-primary);
+    padding-bottom: 0.5rem;
+}
+
+.md-typeset code {
+    background: var(--pki-bg-secondary);
+    border: 1px solid var(--pki-border);
+    color: var(--pki-accent);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.md-typeset pre {
+    background: var(--pki-bg-secondary);
+    border: 1px solid var(--pki-border);
+    border-radius: 8px;
+}
+
+.md-typeset pre code {
+    border: none;
+    padding: 1rem;
+}
+
+/* Admonition overrides */
+.md-typeset .admonition,
+.md-typeset details {
+    background: var(--pki-bg-card);
+    border: 1px solid var(--pki-border);
+    border-radius: 8px;
+}
+
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+    border-color: var(--pki-primary);
+}
+
+.md-typeset .admonition.abstract > .admonition-title,
+.md-typeset details.abstract > summary {
+    background: var(--pki-primary-dim);
+    color: var(--pki-primary);
+}
+
+/* Footer */
+.pki-footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--pki-border);
+    text-align: center;
+    color: var(--pki-text-muted);
+    font-size: 0.9rem;
+}
+
+.pki-footer a {
+    color: var(--pki-primary);
+    text-decoration: none;
+}
+
+.pki-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .pki-hero-title {
+        font-size: 1.8rem;
+        letter-spacing: 0.15em;
+    }
+    
+    .pki-hero {
+        padding: 2rem 1rem;
+    }
+    
+    .pki-download-btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .pki-passport-grid {
+        grid-template-columns: 1fr;
+    }
+}

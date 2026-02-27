@@ -9,6 +9,9 @@ theme:
     - navigation.sections
   custom_dir: ../overrides
 
+extra_css:
+  - assets/rulerom.css
+
 extra:
   analytics:
     provider: yandex
