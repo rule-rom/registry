@@ -1,379 +1,318 @@
-/* Rule-ROM PKI — Sovereign Root Authority Theme */
-/* The Doomsday Terminal / Digital Notary Aesthetic */
+/* Rule-ROM Federation — Sovereign Theme */
+/* Professional / Engineering Aesthetic */
 
 :root {
-    --pki-bg: #0a0a0f;
-    --pki-bg-secondary: #12121a;
-    --pki-bg-card: #1a1a25;
-    --pki-text: #e0e0e0;
-    --pki-text-muted: #6b7280;
-    --pki-accent: #00ff88;
-    --pki-accent-dim: rgba(0, 255, 136, 0.1);
-    --pki-primary: #00d9ff;
-    --pki-primary-dim: rgba(0, 217, 255, 0.1);
-    --pki-warning: #ffb800;
-    --pki-danger: #ff4444;
-    --pki-border: #2a2a3a;
-    --pki-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    --rom-bg: #0a0a0f;
+    --rom-bg-secondary: #12121a;
+    --rom-bg-card: #1a1a25;
+    --rom-text: #e0e0e0;
+    --rom-text-muted: #8892a8;
+    --rom-accent: #00d9ff;
+    --rom-accent-dim: rgba(0, 217, 255, 0.1);
+    --rom-primary: #00d9ff;
+    --rom-primary-dim: rgba(0, 217, 255, 0.15);
+    --rom-warning: #ffb800;
+    --rom-danger: #ff4444;
+    --rom-border: #2a2a3a;
+    --rom-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
 
-/* Base overrides */
+/* ================================
+   BASE OVERRIDES
+   ================================ */
+
 body {
-    background: linear-gradient(135deg, var(--pki-bg) 0%, #0f0f1a 50%, var(--pki-bg) 100%);
+    background: linear-gradient(135deg, var(--rom-bg) 0%, #0f0f1a 50%, var(--rom-bg) 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Hero Unit — The Authority Header */
-.pki-hero {
-    background: linear-gradient(180deg, var(--pki-bg-secondary) 0%, var(--pki-bg) 100%);
-    border-bottom: 2px solid var(--pki-primary);
-    padding: 4rem 2rem;
+/* ================================
+   HERO UNIT
+   ================================ */
+
+.rom-hero {
+    background: linear-gradient(180deg, var(--rom-bg-secondary) 0%, var(--rom-bg) 100%);
+    border-bottom: 1px solid var(--rom-border);
+    padding: 3rem 2rem;
     text-align: center;
-    position: relative;
-    overflow: hidden;
 }
 
-.pki-hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 600px;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, var(--pki-primary), transparent);
-    animation: scan 3s ease-in-out infinite;
-}
-
-@keyframes scan {
-    0%, 100% { top: 0; opacity: 0.5; }
-    50% { top: 100%; opacity: 1; }
-}
-
-.pki-hero-title {
-    font-size: 3rem;
-    font-weight: 900;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    background: linear-gradient(90deg, var(--pki-primary), var(--pki-accent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 0.5rem;
-    text-shadow: 0 0 40px rgba(0, 217, 255, 0.3);
-}
-
-.pki-hero-subtitle {
-    font-size: 1.1rem;
-    color: var(--pki-text-muted);
-    letter-spacing: 0.1em;
-    margin-bottom: 2rem;
-}
-
-/* Status Indicator — Operational Blink */
-.pki-status {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1.5rem;
-    background: var(--pki-accent-dim);
-    border: 1px solid var(--pki-accent);
-    border-radius: 50px;
-    font-family: var(--pki-mono);
-    font-size: 0.85rem;
-    color: var(--pki-accent);
-    text-transform: uppercase;
+.rom-hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
     letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--rom-text);
+    margin-bottom: 0.5rem;
 }
 
-.pki-status-dot {
-    width: 8px;
-    height: 8px;
-    background: var(--pki-accent);
-    border-radius: 50%;
-    animation: blink 1.5s ease-in-out infinite;
-    box-shadow: 0 0 10px var(--pki-accent);
+.rom-hero-subtitle {
+    font-size: 1rem;
+    color: var(--rom-text-muted);
+    letter-spacing: 0.05em;
+    font-weight: 400;
 }
 
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
+/* ================================
+   MISSION STATEMENT
+   ================================ */
+
+.rom-mission {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: var(--rom-bg-card);
+    border: 1px solid var(--rom-border);
+    border-radius: 8px;
+    text-align: center;
 }
 
-/* Sovereign Download Button */
-.pki-download-btn {
+.rom-mission-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--rom-text);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.rom-mission-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--rom-text-muted);
+}
+
+/* ================================
+   ACTION BUTTONS
+   ================================ */
+
+.rom-btn-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.rom-btn {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5rem 3rem;
-    background: linear-gradient(135deg, #006677 0%, #005566 100%);
-    color: #e0e0e0;
-    border: 2px solid var(--pki-primary);
-    border-radius: 8px;
-    font-size: 1.3rem;
-    font-weight: 700;
+    padding: 1.25rem 2.5rem;
+    background: var(--rom-bg-card);
+    color: var(--rom-text);
+    border: 1px solid var(--rom-border);
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 20px rgba(0, 217, 255, 0.2);
-    margin: 2rem 0;
+    transition: all 0.2s ease;
+    min-width: 200px;
 }
 
-.pki-download-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 0 50px rgba(0, 217, 255, 0.6);
-    background: linear-gradient(135deg, var(--pki-primary) 0%, #00b8d9 100%);
-    color: #0a0a0f;
+.rom-btn:hover {
+    border-color: var(--rom-primary);
+    background: var(--rom-primary-dim);
+    color: var(--rom-primary);
+    transform: translateY(-2px);
 }
 
-.pki-download-btn:active {
-    transform: translateY(-1px);
+.rom-btn-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-.pki-download-btn-label {
-    font-size: 0.65rem;
+.rom-btn-label {
+    font-size: 0.7rem;
     font-weight: 400;
-    opacity: 0.8;
-    margin-top: 0.5rem;
-    font-family: var(--pki-mono);
+    opacity: 0.7;
+    margin-top: 0.25rem;
+    font-family: var(--rom-mono);
     letter-spacing: 0;
-    word-break: break-all;
-    text-align: center;
-    max-width: 100%;
 }
 
-/* Certificate Passport Card */
-.pki-passport {
-    background: var(--pki-bg-card);
-    border: 1px solid var(--pki-border);
-    border-radius: 12px;
-    padding: 2rem;
-    margin: 2rem 0;
-    position: relative;
-    overflow: hidden;
+.rom-btn-primary {
+    border-color: var(--rom-primary);
+    background: var(--rom-primary-dim);
+    color: var(--rom-primary);
 }
 
-.pki-passport::before {
-    content: '🛡️';
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 3rem;
-    opacity: 0.1;
+.rom-btn-primary:hover {
+    background: rgba(0, 217, 255, 0.2);
 }
 
-.pki-passport-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--pki-border);
-}
+/* ================================
+   DOMAIN CARDS
+   ================================ */
 
-.pki-passport-icon {
-    font-size: 2.5rem;
-}
-
-.pki-passport-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--pki-text);
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-}
-
-.pki-passport-grid {
+.rom-domains {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
+    margin: 2rem 0;
 }
 
-.pki-passport-field {
-    background: var(--pki-bg-secondary);
-    padding: 1rem;
-    border-radius: 8px;
-    border-left: 3px solid var(--pki-primary);
-}
-
-.pki-passport-label {
-    font-size: 0.75rem;
-    color: var(--pki-text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.5rem;
-}
-
-.pki-passport-value {
-    font-family: var(--pki-mono);
-    font-size: 0.95rem;
-    color: var(--pki-text);
-    word-break: break-all;
-}
-
-.pki-passport-value.highlight {
-    color: var(--pki-accent);
-    font-weight: 600;
-}
-
-/* Fingerprint Display */
-.pki-fingerprint {
-    background: var(--pki-bg-secondary);
-    border: 1px solid var(--pki-border);
+.rom-domain-item {
+    background: var(--rom-bg-card);
+    border: 1px solid var(--rom-border);
     border-radius: 8px;
     padding: 1.5rem;
-    margin: 1rem 0;
-    font-family: var(--pki-mono);
+    transition: all 0.2s ease;
 }
 
-.pki-fingerprint-title {
-    font-size: 0.85rem;
-    color: var(--pki-text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+.rom-domain-item:hover {
+    border-color: var(--rom-primary);
+}
+
+.rom-domain-icon {
+    font-size: 2rem;
     margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
 }
 
-.pki-fingerprint-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-}
-
-.pki-fp-item {
-    background: var(--pki-bg);
-    padding: 1rem;
-    border-radius: 6px;
-    border: 1px solid var(--pki-border);
-}
-
-.pki-fp-algo {
-    font-size: 0.75rem;
-    color: var(--pki-text-muted);
-    text-transform: uppercase;
+.rom-domain-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--rom-text);
     margin-bottom: 0.5rem;
-}
-
-.pki-fp-value {
-    font-family: var(--pki-mono);
-    font-size: 0.85rem;
-    color: var(--pki-primary);
-    word-break: break-all;
     letter-spacing: 0.05em;
 }
 
-/* Installation Steps — Three Paths */
-.pki-steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
-
-.pki-step {
-    background: var(--pki-bg-card);
-    border: 1px solid var(--pki-border);
-    border-radius: 12px;
-    padding: 1.5rem;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.pki-step:hover {
-    border-color: var(--pki-primary);
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(0, 217, 255, 0.15);
-}
-
-.pki-step-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.pki-step-title {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--pki-text);
-    margin-bottom: 0.5rem;
-}
-
-.pki-step-desc {
+.rom-domain-desc {
     font-size: 0.9rem;
-    color: var(--pki-text-muted);
+    color: var(--rom-text-muted);
+    line-height: 1.6;
     margin-bottom: 1rem;
 }
 
-.pki-step-code {
-    background: var(--pki-bg);
-    padding: 0.75rem;
-    border-radius: 6px;
-    font-family: var(--pki-mono);
-    font-size: 0.8rem;
-    color: var(--pki-accent);
-    text-align: left;
-    overflow-x: auto;
+.rom-domain-link {
+    display: inline-block;
+    color: var(--rom-primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    font-family: var(--rom-mono);
 }
 
-/* Signed Artifacts Table */
-.pki-artifacts {
-    background: var(--pki-bg-card);
-    border: 1px solid var(--pki-border);
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin: 2rem 0;
+.rom-domain-link:hover {
+    text-decoration: underline;
 }
 
-.pki-artifacts-title {
+/* ================================
+   INFRASTRUCTURE SECTION
+   ================================ */
+
+.rom-infra {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--rom-border);
+}
+
+.rom-infra-title {
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--pki-text);
+    color: var(--rom-text);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* ================================
+   CONTACT SECTION
+   ================================ */
+
+.rom-contact {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: var(--rom-bg-card);
+    border: 1px solid var(--rom-border);
+    border-radius: 8px;
+}
+
+.rom-contact-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--rom-text);
     margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.rom-contact-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.rom-contact-item {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--rom-bg-secondary);
+    border: 1px solid var(--rom-border);
+    border-radius: 6px;
 }
 
-.pki-artifacts-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: var(--pki-mono);
+.rom-contact-item a {
+    color: var(--rom-text);
+    text-decoration: none;
+    font-family: var(--rom-mono);
     font-size: 0.9rem;
 }
 
-.pki-artifacts-table th {
-    text-align: left;
-    padding: 0.75rem;
-    color: var(--pki-text-muted);
-    text-transform: uppercase;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    border-bottom: 1px solid var(--pki-border);
+.rom-contact-item a:hover {
+    color: var(--rom-primary);
 }
 
-.pki-artifacts-table td {
-    padding: 0.75rem;
-    border-bottom: 1px solid var(--pki-border);
+.rom-contact-icon {
+    font-size: 1.1rem;
 }
 
-.pki-artifacts-table tr:last-child td {
-    border-bottom: none;
+/* ================================
+   FOOTER
+   ================================ */
+
+.rom-footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--rom-border);
+    text-align: center;
+    color: var(--rom-text-muted);
+    font-size: 0.85rem;
 }
 
-.pki-status-verified {
-    color: var(--pki-accent);
-    font-weight: 600;
+.rom-footer-tagline {
+    font-size: 0.9rem;
+    color: var(--rom-text-muted);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
 }
 
-/* Code blocks override */
+.rom-footer a {
+    color: var(--rom-primary);
+    text-decoration: none;
+}
+
+.rom-footer a:hover {
+    text-decoration: underline;
+}
+
+/* ================================
+   CODE BLOCKS OVERRIDE
+   ================================ */
+
 code, pre {
-    font-family: var(--pki-mono) !important;
+    font-family: var(--rom-mono) !important;
 }
 
-/* Material MkDocs specific overrides */
+/* ================================
+   MATERIAL MKDOCS SPECIFIC OVERRIDES
+   ================================ */
+
 .md-main__inner {
     margin-top: 2rem;
 }
@@ -385,28 +324,28 @@ code, pre {
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
-    color: var(--pki-text);
+    color: var(--rom-text);
     font-weight: 700;
     letter-spacing: 0.05em;
 }
 
 .md-typeset h1 {
-    border-bottom: 2px solid var(--pki-primary);
+    border-bottom: 1px solid var(--rom-border);
     padding-bottom: 0.5rem;
 }
 
 .md-typeset code {
-    background: var(--pki-bg-secondary);
-    border: 1px solid var(--pki-border);
-    color: var(--pki-accent);
+    background: var(--rom-bg-secondary);
+    border: 1px solid var(--rom-border);
+    color: var(--rom-accent);
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
 }
 
 .md-typeset pre {
-    background: var(--pki-bg-secondary);
-    border: 1px solid var(--pki-border);
-    border-radius: 8px;
+    background: var(--rom-bg-secondary);
+    border: 1px solid var(--rom-border);
+    border-radius: 6px;
 }
 
 .md-typeset pre code {
@@ -417,58 +356,47 @@ code, pre {
 /* Admonition overrides */
 .md-typeset .admonition,
 .md-typeset details {
-    background: var(--pki-bg-card);
-    border: 1px solid var(--pki-border);
-    border-radius: 8px;
+    background: var(--rom-bg-card);
+    border: 1px solid var(--rom-border);
+    border-radius: 6px;
 }
 
 .md-typeset .admonition.abstract,
 .md-typeset details.abstract {
-    border-color: var(--pki-primary);
+    border-color: var(--rom-primary);
 }
 
 .md-typeset .admonition.abstract > .admonition-title,
 .md-typeset details.abstract > summary {
-    background: var(--pki-primary-dim);
-    color: var(--pki-primary);
+    background: var(--rom-primary-dim);
+    color: var(--rom-primary);
 }
 
-/* Footer */
-.pki-footer {
-    margin-top: 4rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--pki-border);
-    text-align: center;
-    color: var(--pki-text-muted);
-    font-size: 0.9rem;
-}
+/* ================================
+   RESPONSIVE
+   ================================ */
 
-.pki-footer a {
-    color: var(--pki-primary);
-    text-decoration: none;
-}
-
-.pki-footer a:hover {
-    text-decoration: underline;
-}
-
-/* Responsive */
 @media (max-width: 768px) {
-    .pki-hero-title {
-        font-size: 1.8rem;
-        letter-spacing: 0.15em;
+    .rom-hero-title {
+        font-size: 1.5rem;
     }
-    
-    .pki-hero {
+
+    .rom-hero {
         padding: 2rem 1rem;
     }
-    
-    .pki-download-btn {
-        padding: 1rem 2rem;
-        font-size: 1rem;
+
+    .rom-btn {
+        padding: 1rem 1.5rem;
+        font-size: 0.9rem;
+        min-width: auto;
+        width: 100%;
     }
-    
-    .pki-passport-grid {
+
+    .rom-domains {
         grid-template-columns: 1fr;
+    }
+
+    .rom-contact-grid {
+        flex-direction: column;
     }
 }

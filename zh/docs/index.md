@@ -1,69 +1,102 @@
-# Rule-ROM：可执行意图全球注册表 📜🛡️
+# Rule-ROM Federation 🏛️
 
-**我们将人工智能从概率领域转化为可执行意图（Intent）领域。**
+<div class="rom-hero">
+    <h1 class="rom-hero-title">Rule-ROM</h1>
+    <p class="rom-hero-subtitle">可执行意图全球注册表</p>
+</div>
 
-Rule-ROM 项目是一个确定性屏障，将神经网络的随机噪声转化为可验证的结果。
-
----
-
-## 🏛️ 关于联邦
-
-这是一个可扩展的技术标准联邦。我们创建通用控制总线——从 C 源代码到神经形态芯片和工业自动化。任何可以形式化"最佳实践"和安全规则的技术都可以集成到注册表中。
-
----
-
-## 🌐 当前联邦域名
-
-| 域名 | 描述 | 链接 |
-|------|------|------|
-| 🌿 **C-SAFE** | 传统代码免疫：Clang AST + Garden-Core | [c-safe.rulerom.com](https://c-safe.rulerom.com) |
-| 🧠 **Decima** | 神经形态基板和总线规范 | [decima.rulerom.com](https://decima.rulerom.com) |
-| 🧪 **Bakery** | "烘焙"确定性个性的方法论 | [bakery.rulerom.com](https://bakery.rulerom.com) |
-| 🔈 **Audrey** | 真空电子学标准和频率物理学 | [audrey.rulerom.com](https://audrey.rulerom.com) |
-
-## 🔐 基础设施
-
-| 服务 | 描述 | 链接 |
-|------|------|------|
-| 🔑 **PKI** | 公钥基础设施 | [pki.rulerom.com](https://pki.rulerom.com) |
-| 📓 **Log** | 每日开发日志 | [rulerom.com/zh/log/](/zh/log/) |
+<div class="rom-mission">
+    <p class="rom-mission-text">
+        <strong>开发者、科学家和企业的同步点。</strong>
+    </p>
+    <p class="rom-mission-text" style="margin-top: 1rem;">
+        这是一个可扩展的技术标准联邦。我们创建通用控制总线——从 C 源代码到神经形态芯片和工业自动化。任何可以形式化"最佳实践"和安全规则的技术都可以集成到注册表中。
+    </p>
+</div>
 
 ---
 
-## 🛡️ 执行协议：零信任
+## 联邦域名
 
-我们不"lint"。我们强制执行。
-
-- **验证：** Babashka (Clojure) 验证 Clang 抽象语法树
-- **法则：** 如果 `AST != Intent`，代码将被**修剪**（pruned）
-- **效率：** i5-3550 上 20µs - 40µs
-
----
-
-## ➕ 加入
-
-**[+] 提议标准：** 如果您有工程或软件系统的现成规范，请发送至 [access@rulerom.com](mailto:access@rulerom.com)
-
-**[+] 贡献：**
-1. Fork 注册表
-2. 添加您的确定性 EDN-intent
-3. 提交 PR 进行审核
-
----
-
-## 📧 联系方式
-
-- **一般咨询：** [intent@rulerom.com](mailto:intent@rulerom.com)
-- **标准提议：** [access@rulerom.com](mailto:access@rulerom.com)
-
----
-
-## 🔗 链接
-
-- [🌿 Garden-Core](https://intent-garden.org)
-- [🧠 Decima8](https://decima8.org)
-- [💰 支持](https://boosty.to/intentgarden)
+<div class="rom-domains">
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🌿</div>
+        <h3 class="rom-domain-title">C-SAFE</h3>
+        <p class="rom-domain-desc">传统代码免疫：Clang AST + Garden-Core 验证确定性 C 代码。</p>
+        <a href="https://c-safe.rulerom.com" class="rom-domain-link">c-safe.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🧠</div>
+        <h3 class="rom-domain-title">Decima</h3>
+        <p class="rom-domain-desc">神经形态基板，PHASE_READ/WRITE 20µs。会呼吸的硬件。</p>
+        <a href="https://decima.rulerom.com" class="rom-domain-link">decima.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🧪</div>
+        <h3 class="rom-domain-title">Bakery</h3>
+        <p class="rom-domain-desc">确定性个性烘焙。OCR、HFT、ASR — 快速、密集、已验证。</p>
+        <a href="https://bakery.rulerom.com" class="rom-domain-link">bakery.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🔈</div>
+        <h3 class="rom-domain-title">Audrey</h3>
+        <p class="rom-domain-desc">模拟灵魂。真空电子、电子管放大器、超越时代的频率物理。</p>
+        <a href="https://audrey.rulerom.com" class="rom-domain-link">audrey.rulerom.com</a>
+    </div>
+</div>
 
 ---
 
-**Bake the Future. Build the Substrate.** 🛠️⚡️
+## 基础设施
+
+<div class="rom-infra">
+    <h2 class="rom-infra-title">基础设施</h2>
+    
+    <div class="rom-btn-grid">
+        <a href="https://pki.rulerom.com" class="rom-btn rom-btn-primary">
+            <span class="rom-btn-icon">🔑</span>
+            <span>PKI 门户</span>
+            <span class="rom-btn-label">pki.rulerom.com</span>
+        </a>
+        
+        <a href="log/" class="rom-btn">
+            <span class="rom-btn-icon">📓</span>
+            <span>开发日志</span>
+            <span class="rom-btn-label">每日记录</span>
+        </a>
+    </div>
+</div>
+
+---
+
+## 加入联邦
+
+<div class="rom-mission" style="margin-top: 2rem;">
+    <p class="rom-mission-text">
+        如果您有工程或软件系统的现成规范，请提出标准以集成到注册表中：<a href="mailto:access@rulerom.com" style="color: var(--rom-primary);">access@rulerom.com</a>
+    </p>
+</div>
+
+<div class="rom-contact" style="margin-top: 1.5rem;">
+    <h3 class="rom-contact-title">意图 Pull Request 处理</h3>
+    <div class="rom-contact-grid">
+        <div class="rom-contact-item">
+            <span class="rom-contact-icon">✉️</span>
+            <a href="mailto:intent@rulerom.com">intent@rulerom.com</a>
+        </div>
+    </div>
+</div>
+
+---
+
+<div class="rom-footer">
+    <p class="rom-footer-tagline">Bake the Future. Build the Substrate.</p>
+    <p>
+        <a href="https://intent-garden.org">Garden-Core</a> ·
+        <a href="https://decima8.org">Decima8</a> ·
+        <a href="https://boosty.to/intentgarden">Support</a>
+    </p>
+</div>

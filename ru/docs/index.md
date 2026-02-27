@@ -1,45 +1,102 @@
-# Rule-ROM: Глобальный реестр исполняемых намерений 📜🛡️
+# Rule-ROM Federation 🏛️
 
-**Мы переводим ИИ из области вероятностей в область исполняемого намерения (Intent).**
+<div class="rom-hero">
+    <h1 class="rom-hero-title">Rule-ROM</h1>
+    <p class="rom-hero-subtitle">Глобальный реестр исполняемых намерений</p>
+</div>
 
-Проект Rule-ROM — это детерминированный барьер, превращающий стохастический шум нейросетей в проверяемый результат.
-
----
-
-## 🏛️ О Федерации
-
-Это расширяемая федерация технических стандартов. Мы создаем универсальную шину управления — от исходного кода на Си до нейроморфного кремния и промышленной автоматики. Любой вид техники, где можно формализовать «лучшие практики» и правила безопасности, может быть интегрирован в Реестр.
-
----
-
-## 🌐 Текущие домены Федерации
-
-| Домен | Описание |
-|-------|----------|
-| 🌿 **[C-SAFE](https://c-safe.rulerom.com)** | Иммунизация Legacy: Clang AST + Garden-Core |
-| 🧠 **[Decima](https://decima.rulerom.com)** | Спецификации нейроморфного субстрата и шины |
-| 🧪 **[Bakery](https://bakery.rulerom.com)** | Методология «пропекания» детерминированных личностей |
-| 🔈 **[Audrey](https://audrey.rulerom.com)** | Стандарты вакуумной электроники и физика частот |
-
-## 🔐 Инфраструктура
-
-| Сервис | Описание |
-|--------|----------|
-| 🔑 **[PKI](https://pki.rulerom.com)** | Инфраструктура открытых ключей |
-| 📓 **[Log](/ru/log/)** | Ежедневный журнал разработки |
+<div class="rom-mission">
+    <p class="rom-mission-text">
+        <strong>Точка синхронизации разработчиков, ученых и бизнеса.</strong>
+    </p>
+    <p class="rom-mission-text" style="margin-top: 1rem;">
+        Это расширяемая федерация технических стандартов. Мы создаем универсальную шину управления — от исходного кода на Си до нейроморфного кремния и промышленной автоматики. Любой вид техники, где можно формализовать «лучшие практики» и правила безопасности, может быть интегрирован в Реестр.
+    </p>
+</div>
 
 ---
 
-## ➕ Присоединиться
+## Домены Федерации
 
-**[+] Предложить стандарт:** Если у вас есть готовые спецификации для инженерных или программных систем — пишите на [access@rulerom.com](mailto:access@rulerom.com)
+<div class="rom-domains">
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🌿</div>
+        <h3 class="rom-domain-title">C-SAFE</h3>
+        <p class="rom-domain-desc">Иммунизация Legacy: Clang AST + Garden-Core для детерминированного C кода.</p>
+        <a href="https://c-safe.rulerom.com" class="rom-domain-link">c-safe.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🧠</div>
+        <h3 class="rom-domain-title">Decima</h3>
+        <p class="rom-domain-desc">Нейроморфный субстрат с PHASE_READ/WRITE на 20µs. Железо, которое дышит.</p>
+        <a href="https://decima.rulerom.com" class="rom-domain-link">decima.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🧪</div>
+        <h3 class="rom-domain-title">Bakery</h3>
+        <p class="rom-domain-desc">Пропекание детерминированных личностей. OCR, HFT, ASR — быстро, плотно, проверено.</p>
+        <a href="https://bakery.rulerom.com" class="rom-domain-link">bakery.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🔈</div>
+        <h3 class="rom-domain-title">Audrey</h3>
+        <p class="rom-domain-desc">Аналоговая душа. Ламповая электроника, усилители, физика частот вне времени.</p>
+        <a href="https://audrey.rulerom.com" class="rom-domain-link">audrey.rulerom.com</a>
+    </div>
+</div>
 
 ---
 
-## 📧 Контакты
+## Инфраструктура
 
-**Email:** [intent@rulerom.com](mailto:intent@rulerom.com)
+<div class="rom-infra">
+    <h2 class="rom-infra-title">Инфраструктура</h2>
+    
+    <div class="rom-btn-grid">
+        <a href="https://pki.rulerom.com" class="rom-btn rom-btn-primary">
+            <span class="rom-btn-icon">🔑</span>
+            <span>PKI Портал</span>
+            <span class="rom-btn-label">pki.rulerom.com</span>
+        </a>
+        
+        <a href="log/" class="rom-btn">
+            <span class="rom-btn-icon">📓</span>
+            <span>Журнал Разработки</span>
+            <span class="rom-btn-label">Ежедневные записи</span>
+        </a>
+    </div>
+</div>
 
 ---
 
-**Bake the Future. Build the Substrate.** 🛠️⚡️
+## Присоединиться к Федерации
+
+<div class="rom-mission" style="margin-top: 2rem;">
+    <p class="rom-mission-text">
+        Если у вас есть готовые спецификации для инженерных или программных систем, предложите стандарт для интеграции в Реестр: <a href="mailto:access@rulerom.com" style="color: var(--rom-primary);">access@rulerom.com</a>
+    </p>
+</div>
+
+<div class="rom-contact" style="margin-top: 1.5rem;">
+    <h3 class="rom-contact-title">Обработка Pull Request интентов</h3>
+    <div class="rom-contact-grid">
+        <div class="rom-contact-item">
+            <span class="rom-contact-icon">✉️</span>
+            <a href="mailto:intent@rulerom.com">intent@rulerom.com</a>
+        </div>
+    </div>
+</div>
+
+---
+
+<div class="rom-footer">
+    <p class="rom-footer-tagline">Bake the Future. Build the Substrate.</p>
+    <p>
+        <a href="https://intent-garden.org">Garden-Core</a> ·
+        <a href="https://decima8.org">Decima8</a> ·
+        <a href="https://boosty.to/intentgarden">Support</a>
+    </p>
+</div>

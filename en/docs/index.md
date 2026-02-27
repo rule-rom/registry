@@ -1,45 +1,102 @@
-# Rule-ROM: Global Registry of Executable Intentions 📜🛡️
+# Rule-ROM Federation 🏛️
 
-**We translate AI from the realm of probabilities to the realm of executable Intent.**
+<div class="rom-hero">
+    <h1 class="rom-hero-title">Rule-ROM</h1>
+    <p class="rom-hero-subtitle">Global Registry of Executable Intentions</p>
+</div>
 
-The Rule-ROM project is a deterministic barrier that transforms the stochastic noise of neural networks into verifiable results.
-
----
-
-## 🏛️ About the Federation
-
-This is an expandable federation of technical standards. We create a universal control bus — from C source code to neuromorphic silicon and industrial automation. Any technology where "best practices" and safety rules can be formalized can be integrated into the Registry.
-
----
-
-## 🌐 Current Federation Domains
-
-| Domain | Description |
-|--------|-------------|
-| 🌿 **[C-SAFE](https://c-safe.rulerom.com)** | Legacy Immunization: Clang AST + Garden-Core |
-| 🧠 **[Decima](https://decima.rulerom.com)** | Neuromorphic substrate and bus specifications |
-| 🧪 **[Bakery](https://bakery.rulerom.com)** | Methodology for "baking" deterministic personalities |
-| 🔈 **[Audrey](https://audrey.rulerom.com)** | Vacuum electronics standards and frequency physics |
-
-## 🔐 Infrastructure
-
-| Service | Description |
-|---------|-------------|
-| 🔑 **[PKI](https://pki.rulerom.com)** | Public Key Infrastructure |
-| 📓 **[Log](/en/log/)** | Daily development journal |
+<div class="rom-mission">
+    <p class="rom-mission-text">
+        <strong>Synchronization point for developers, scientists, and business.</strong>
+    </p>
+    <p class="rom-mission-text" style="margin-top: 1rem;">
+        An expandable federation of technical standards. We create a universal control bus — from C source code to neuromorphic silicon and industrial automation. Any technology where "best practices" and safety rules can be formalized can be integrated into the Registry.
+    </p>
+</div>
 
 ---
 
-## ➕ Join
+## Federation Domains
 
-**[+] Propose a Standard:** If you have ready specifications for engineering or software systems — write to [access@rulerom.com](mailto:access@rulerom.com)
+<div class="rom-domains">
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🌿</div>
+        <h3 class="rom-domain-title">C-SAFE</h3>
+        <p class="rom-domain-desc">Legacy Immunization: Clang AST + Garden-Core validation for deterministic C code.</p>
+        <a href="https://c-safe.rulerom.com" class="rom-domain-link">c-safe.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🧠</div>
+        <h3 class="rom-domain-title">Decima</h3>
+        <p class="rom-domain-desc">Neuromorphic substrate with PHASE_READ/WRITE at 20µs. Hardware that breathes.</p>
+        <a href="https://decima.rulerom.com" class="rom-domain-link">decima.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🧪</div>
+        <h3 class="rom-domain-title">Bakery</h3>
+        <p class="rom-domain-desc">Deterministic personality baking. OCR, HFT, ASR — fast, dense, verified.</p>
+        <a href="https://bakery.rulerom.com" class="rom-domain-link">bakery.rulerom.com</a>
+    </div>
+    
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🔈</div>
+        <h3 class="rom-domain-title">Audrey</h3>
+        <p class="rom-domain-desc">Analog soul. Vacuum electronics, tube amps, frequency physics that outlives eras.</p>
+        <a href="https://audrey.rulerom.com" class="rom-domain-link">audrey.rulerom.com</a>
+    </div>
+</div>
 
 ---
 
-## 📧 Contact
+## Infrastructure
 
-**Email:** [intent@rulerom.com](mailto:intent@rulerom.com)
+<div class="rom-infra">
+    <h2 class="rom-infra-title">Infrastructure</h2>
+    
+    <div class="rom-btn-grid">
+        <a href="https://pki.rulerom.com" class="rom-btn rom-btn-primary">
+            <span class="rom-btn-icon">🔑</span>
+            <span>PKI Portal</span>
+            <span class="rom-btn-label">pki.rulerom.com</span>
+        </a>
+        
+        <a href="log/" class="rom-btn">
+            <span class="rom-btn-icon">📓</span>
+            <span>Development Log</span>
+            <span class="rom-btn-label">Daily journal</span>
+        </a>
+    </div>
+</div>
 
 ---
 
-**Bake the Future. Build the Substrate.** 🛠️⚡️
+## Join the Federation
+
+<div class="rom-mission" style="margin-top: 2rem;">
+    <p class="rom-mission-text">
+        If you have ready specifications for engineering or software systems, propose a standard for integration: <a href="mailto:access@rulerom.com" style="color: var(--rom-primary);">access@rulerom.com</a>
+    </p>
+</div>
+
+<div class="rom-contact" style="margin-top: 1.5rem;">
+    <h3 class="rom-contact-title">Intent Pull Request Processing</h3>
+    <div class="rom-contact-grid">
+        <div class="rom-contact-item">
+            <span class="rom-contact-icon">✉️</span>
+            <a href="mailto:intent@rulerom.com">intent@rulerom.com</a>
+        </div>
+    </div>
+</div>
+
+---
+
+<div class="rom-footer">
+    <p class="rom-footer-tagline">Bake the Future. Build the Substrate.</p>
+    <p>
+        <a href="https://intent-garden.org">Garden-Core</a> ·
+        <a href="https://decima8.org">Decima8</a> ·
+        <a href="https://boosty.to/intentgarden">Support</a>
+    </p>
+</div>
