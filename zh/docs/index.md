@@ -91,6 +91,10 @@
 ---
 
 <div class="rom-footer">
-    <p class="rom-footer-tagline">Bake the Future. Build the Substrate.</p>
+    <p class="rom-footer-tagline">Communicate. Command. Control.</p>
     <p><a href="https://intent-garden.org">🌿 Intent-Garden.Org</a></p>
+    <p style="margin-top: 1rem; font-size: 0.75rem; opacity: 0.6;">
+        © 2026 Intent-Garden. Specifications: CC BY-ND 4.0. Hardware: CERN-OHL-S v2.<br>
+        <a href="https://pki.rulerom.com">Verified by Rule-ROM Root CA</a>
+    </p>
 </div>

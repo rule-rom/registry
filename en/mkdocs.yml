@@ -19,6 +19,7 @@ extra:
 
 nav:
   - '🏛️ Home': index.md
+  - '📜 License': LICENSE.md
   - '📓 Log':
     - 'Overview': log/index.md
     - '2026':
