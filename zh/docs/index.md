@@ -20,31 +20,38 @@
 
 <div class="rom-domains">
     <div class="rom-domain-item">
-        <div class="rom-domain-icon">🌿</div>
-        <h3 class="rom-domain-title">C-SAFE</h3>
-        <p class="rom-domain-desc">传统代码免疫：Clang AST + Garden-Core 验证确定性 C 代码。</p>
-        <a href="https://c-safe.rulerom.com" class="rom-domain-link">c-safe.rulerom.com</a>
-    </div>
-    
-    <div class="rom-domain-item">
-        <div class="rom-domain-icon">🧠</div>
+        <div class="rom-domain-icon">🐉</div>
         <h3 class="rom-domain-title">Decima</h3>
         <p class="rom-domain-desc">神经形态基板，PHASE_READ/WRITE 20µs。会呼吸的硬件。</p>
-        <a href="https://decima.rulerom.com" class="rom-domain-link">decima.rulerom.com</a>
+        <a href="https://decima.rulerom.com/zh/" class="rom-domain-link">decima.rulerom.com</a>
     </div>
-    
+
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🧭</div>
+        <h3 class="rom-domain-title">Philo</h3>
+        <p class="rom-domain-desc">哲学：主体性的走廊、接力赛、神义论</p>
+        <a href="https://philo.rulerom.com/zh/" class="rom-domain-link">philo.rulerom.com</a>
+    </div>
+
     <div class="rom-domain-item">
         <div class="rom-domain-icon">🧪</div>
         <h3 class="rom-domain-title">Bakery</h3>
         <p class="rom-domain-desc">确定性个性烘焙。OCR、HFT、ASR — 快速、密集、已验证。</p>
-        <a href="https://bakery.rulerom.com" class="rom-domain-link">bakery.rulerom.com</a>
+        <a href="https://bakery.rulerom.com/zh/" class="rom-domain-link">bakery.rulerom.com</a>
     </div>
     
     <div class="rom-domain-item">
         <div class="rom-domain-icon">🔈</div>
         <h3 class="rom-domain-title">Audrey</h3>
         <p class="rom-domain-desc">模拟灵魂。真空电子、电子管放大器、超越时代的频率物理。</p>
-        <a href="https://audrey.rulerom.com" class="rom-domain-link">audrey.rulerom.com</a>
+        <a href="https://audrey.rulerom.com/zh/" class="rom-domain-link">audrey.rulerom.com</a>
+    </div>
+
+    <div class="rom-domain-item">
+        <div class="rom-domain-icon">🌿</div>
+        <h3 class="rom-domain-title">C-SAFE</h3>
+        <p class="rom-domain-desc">传统代码免疫：Clang AST + Garden-Core 验证确定性 C 代码。</p>
+        <a href="https://c-safe.rulerom.com/zh/" class="rom-domain-link">c-safe.rulerom.com</a>
     </div>
 </div>
 
@@ -54,7 +61,7 @@
 
 <div class="rom-infra">
     <div class="rom-btn-grid">
-        <a href="https://pki.rulerom.com" class="rom-btn rom-btn-primary">
+        <a href="https://pki.rulerom.com/zh/" class="rom-btn rom-btn-primary">
             <span class="rom-btn-icon">🔑</span>
             <span>PKI 门户</span>
             <span class="rom-btn-label">pki.rulerom.com</span>
@@ -92,7 +99,7 @@
 
 <div class="rom-footer">
     <p class="rom-footer-tagline">Communicate. Command. Control.</p>
-    <p><a href="https://intent-garden.org">🌿 Intent-Garden.Org</a></p>
+    <p><a href="https://intent-garden.org/zh/">🌿 Intent-Garden.Org</a></p>
     
     <div class="rom-lang-switcher" style="margin: 1.5rem 0;">
         <a href="/en/" class="rom-lang-btn">🇺🇸 EN</a>
@@ -102,6 +109,6 @@
     
     <p style="margin-top: 1rem; font-size: 0.75rem; opacity: 0.6;">
         © 2026 Intent-Garden. Specifications: CC BY-ND 4.0. Hardware: CERN-OHL-S v2.<br>
-        <a href="https://pki.rulerom.com">Verified by Rule-ROM Root CA</a>
+        <a href="https://pki.rulerom.com/zh/">Verified by Rule-ROM Root CA</a>
     </p>
 </div>
