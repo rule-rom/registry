@@ -61,7 +61,7 @@
 
 <div class="rom-infra">
     <div class="rom-btn-grid">
-        <a href="https://pki.rulerom.com" class="rom-btn rom-btn-primary">
+        <a href="https://pki.rulerom.com/ru/" class="rom-btn rom-btn-primary">
             <span class="rom-btn-icon">🔑</span>
             <span>PKI Портал</span>
             <span class="rom-btn-label">pki.rulerom.com</span>
@@ -99,7 +99,7 @@
 
 <div class="rom-footer">
     <p class="rom-footer-tagline">Communicate. Command. Control.</p>
-    <p><a href="https://intent-garden.org">🌿 Intent-Garden.Org</a></p>
+    <p><a href="https://intent-garden.org/main_ru/">🌿 Intent-Garden.Org</a></p>
     
     <div class="rom-lang-switcher" style="margin: 1.5rem 0;">
         <a href="/en/" class="rom-lang-btn">🇺🇸 EN</a>
@@ -109,6 +109,6 @@
     
     <p style="margin-top: 1rem; font-size: 0.75rem; opacity: 0.6;">
         © 2026 Intent-Garden. Specifications: CC BY-ND 4.0. Hardware: CERN-OHL-S v2.<br>
-        <a href="https://pki.rulerom.com">Verified by Rule-ROM Root CA</a>
+        <a href="https://pki.rulerom.com/ru/">Verified by Rule-ROM Root CA</a>
     </p>
 </div>
