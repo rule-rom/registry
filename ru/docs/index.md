@@ -44,7 +44,7 @@
         <div class="rom-domain-icon">🔈</div>
         <h3 class="rom-domain-title">Audrey</h3>
         <p class="rom-domain-desc">Аналоговая душа. Ламповая электроника, усилители, физика частот вне времени.</p>
-        <a href="https://audrey.rulerom.com" class="rom-domain-link">audrey.rulerom.com</a>
+        <a href="https://audrey.rulerom.com/ru/" class="rom-domain-link">audrey.rulerom.com</a>
     </div>
 
     <div class="rom-domain-item">
